@@ -1,0 +1,18 @@
+@loadScene GameScene
+@char Liliana position:"-5.5, -3.5"
+!Hola, soy una chica demoña¡
+# Instructions
+Puedes pulsar con el ratón en uno de los objetos para ver mi reacción
+@stop
+# Sphere
+@char Liliana.Happy
+¡Anda, es una esfera! ¡Y parece súper blandita!
+Me acuerdo cuando le daba balonazos a mi hermano cuando era pequeña, ¡qué tiempos!
+@char Liliana.Default
+@goto .Instructions
+# Cube
+@char Liliana.Angry
+¡Ew, un cubo! Vaya cosa más aburrida...
+La última vez que vi uno fue en Minecraft y lo dejé a los 5 segundos
+@char Liliana.Default
+@goto .Instructions

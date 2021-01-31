@@ -155,9 +155,6 @@ MonoBehaviour:
     - Name: GameScript
       PathPrefix: Scripts
       Guid: 13041fa7b57e76b42881f42296b861e5
-    - Name: StartScript
-      PathPrefix: Scripts
-      Guid: b422a1235c66ea644ad88047a0686c1b
     - Name: MainMenuScript
       PathPrefix: Scripts
       Guid: 5df52bd24482e5b4d8743018656b7a2a

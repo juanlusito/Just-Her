@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Naninovel;
+using System;
 using Naninovel.Commands;
 public class DirectorScript : MonoBehaviour
 {
@@ -9,19 +10,20 @@ public class DirectorScript : MonoBehaviour
     public ObjectInteraction[] interactionScriptArray;
     [HideInInspector]
     public GameObject cameraObject;
+    public string currentLabel;
     void Start()
     {
-        interactionScriptArray = Object.FindObjectsOfType(typeof(ObjectInteraction)) as ObjectInteraction[];
+        interactionScriptArray = FindObjectsOfType(typeof(ObjectInteraction)) as ObjectInteraction[];
     }
     void Update()
     {
-        Command currentCommand = scriptPlayer.PlayedCommand;
-        if (currentCommand.ToString() == "Naninovel.Commands.Stop")
+        currentLabel = scriptPlayer.PlayedScript.GetLabelForLine(scriptPlayer.PlayedIndex);
+        if (scriptPlayer.PlayedCommand.ToString() == "Naninovel.Commands.Stop")
         {
             AddCameraScript();
             foreach (ObjectInteraction interactionScript in interactionScriptArray)
             {
-                interactionScript.enabled = !interactionScript.enabled;
+                interactionScript.enabled = true;
             }
         }
     }

@@ -1,0 +1,35 @@
+; Localization script for `Dialogue1-Part1`
+
+# f804763c
+; Vaya, vaya... 
+Vaya, vaya...
+# 5106c002
+; Mira a qui�n tenemos aqu�...
+Mira a quién tenemos aquí...
+# 461817a0
+; @choice "�Qui�n ha dicho eso? �Sal y da la cara!" goto:.BranchA
+@choice "¿Quién ha dicho eso? !Sal y da la cara!" goto:.BranchA
+# 9cf56c53
+; @choice "..." goto:.BranchB
+@choice "..." goto:.BranchB
+# 2ebbfa10
+; �C�mo te atreves a retarme, par�sito!. �Crees que tienes el poder aqu�? Quiz�s deber�a hacerte lo mismo que le hicimos a mam� �S�, eso ser� divertido!
+¡Cómo te atreves a retarme, parásito!. ¿Crees que tienes el poder aquí? Quizás debería hacerte lo mismo que le hicimos a mamá. ¡Sí, eso será divertido!
+# 5a522f64
+; @choice "�Par�sito? Ya me est�s cansando. �Qui�n est� detr�s de todo �sto? �Sal!" goto:Dialogue1-Part2.BranchA-A
+@choice "¿Parásito? Ya me estás cansando. ¿Quién está detrás de todo ésto? ¡Sal!" goto:Dialogue1-Part2.BranchA-A
+# 503554ee
+; @choice "..." goto:Dialogue1-Part2.BranchA-B
+"..." goto:Dialogue1-Part2.BranchA-B
+# 3123fbb6
+; Veo que el gato te comi� la lengua, como aquella vez, cuando todo era fuego. 
+Veo que el gato te comió la lengua, como aquella vez, cuando todo era fuego. 
+# e8e93a11
+; �Fant�stico! �S�! Eso fue incre�ble, �no crees?
+¡Fantástico! ¡Sí! Eso fue increíble, ¿no crees?
+# 8fde8e9a
+; @choice "�A qu� te refieres?" goto:Dialogue1-Part2.BranchB-A
+@choice "¿A qué te refieres?" goto:Dialogue1-Part2.BranchB-A
+# b3c391c6
+; @choice "��C�mo es posible que sepas sobre aquello!?" goto:Dialogue1-Part2.BranchB-B
+@choice "¿¡Cómo es posible que sepas sobre aquello!?" goto:Dialogue1-Part2.BranchB-B

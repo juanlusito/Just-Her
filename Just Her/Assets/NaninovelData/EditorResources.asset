@@ -152,27 +152,65 @@ MonoBehaviour:
       Guid: 480f5db62ea305c46b89a86496d2a0c9
   - Id: Scripts
     Resources:
-    - Name: GameScript
-      PathPrefix: Scripts
-      Guid: 13041fa7b57e76b42881f42296b861e5
     - Name: MainMenuScript
       PathPrefix: Scripts
       Guid: 5df52bd24482e5b4d8743018656b7a2a
+    - Name: SphereScript
+      PathPrefix: Scripts
+      Guid: 13041fa7b57e76b42881f42296b861e5
+    - Name: CubeScript
+      PathPrefix: Scripts
+      Guid: 027b65b7acacd564f862d9c4a11ceb04
+    - Name: Dialogue1-Part1
+      PathPrefix: Scripts
+      Guid: 85399a03b0e954042acce120447b7839
+    - Name: Dialogue1-Part2
+      PathPrefix: Scripts
+      Guid: 7f5b8844e7382784dab5a89e635721d9
+    - Name: Dialogue1-Part3
+      PathPrefix: Scripts
+      Guid: d1a842be8fddbc04184087ea079bc024
+    - Name: NewScript
+      PathPrefix: Scripts
+      Guid: 5b9a1bd63010b33419d1c1afc185b830
+    - Name: Dialogue2-Part1
+      PathPrefix: Scripts
+      Guid: 732ec99ff3610fd48a27ea6f068fcc72
+    - Name: Dialogue2-Part2
+      PathPrefix: Scripts
+      Guid: 492eecc1e569d354790fc674ef4d6778
+    - Name: Dialogue2-Part3
+      PathPrefix: Scripts
+      Guid: d810f8aeeafe95146903e32e8d6b18cc
+    - Name: Dialogue2-Part4
+      PathPrefix: Scripts
+      Guid: 6a68c56104ca0d743802e199197d4051
+    - Name: Dialogue3-Part1
+      PathPrefix: Scripts
+      Guid: 40a47d2b8cd41f645822e61b9aa871ce
+    - Name: Dialogue3-Part3
+      PathPrefix: Scripts
+      Guid: 30ac9ce4e62fdde49ace265d105bb4a5
   - Id: Characters/63388797-caaf-4dae-a08c-b68900e5bfba
     Resources:
     - Name: Default
-      PathPrefix: Characters/Liliana
-      Guid: 0721f2126d94d21428fc263f58938a3d
-    - Name: Happy
-      PathPrefix: Characters/Liliana
-      Guid: f4a331b664b73154bb1c1dd0c4fc983f
-    - Name: Angry
-      PathPrefix: Characters/Liliana
-      Guid: 403c4568ec002174a83e0f0a378e0694
+      PathPrefix: Characters/Ira
+      Guid: bc582b2bd1e1f374d9da2cd463a023ab
+    - Name: Enfadada
+      PathPrefix: Characters/Ira
+      Guid: 1a6c03d9dfdad0f40a2c5a25026f9cda
+    - Name: Pensativa
+      PathPrefix: Characters/Ira
+      Guid: 126841dc69e82dc468aabdcfb2e1489f
+    - Name: Silueta
+      PathPrefix: Characters/Ira
+      Guid: 9a17d15ba13cf6f40bbb235a72d885a6
   - Id: Audio
     Resources: []
   - Id: Backgrounds/6797e6be-0874-4a12-b99d-e7832daf5eb0
     Resources:
-    - Name: MainBackground
+    - Name: TitleBackground
       PathPrefix: Backgrounds/MainBackground
-      Guid: 6d92289dfb9347f4da6335427e11d659
+      Guid: 52fabaa92a7e18048a4c8d317d7c238d
+  - Id: Unlockables
+    Resources: []

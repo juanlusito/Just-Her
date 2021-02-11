@@ -1,0 +1,45 @@
+# BranchA-A-A
+¡Sí, fue tu error, TU ERROR!
+@choice "Veo que no recuerdas por qué todo termino así. Dime, ¿cómo empezó todo?" goto:Dialogue2-Part4.BranchA-A-A-A
+@choice "Eres una arrogante, al igual que yo, y por ello no entiendes nada" goto:Dialogue2-Part4.BranchA-A-A-B
+@stop
+# BranchA-A-B
+¿Intención?
+@choice "Existe una palabra llamada intención, tiene significado y todo." goto:Dialogue2-Part4.BranchA-A-B-A
+@choice "¡Recuerda de una vez!" goto:Dialogue2-Part4.BranchA-A-B-B
+@stop
+# BranchA-B-A
+De-deja de intentar controlarme de una vez. 
+¡Me estás confundiendo! 
+@choice "¡Sólo era un acto para que se sintiera mejor!" goto:Dialogue2-Part4.BranchA-B-A-A
+@choice "¡No te manipulo, inútil! Deberías ver las cosas desde el inicio hasta el final, la intención y la consecuencia..." goto:Dialogue2-Part4.BranchA-B-A-B
+@stop
+# BranchA-B-B
+Eres un arrogante que sólo piensa en sí mismo, en no salir mal parado
+Pero aquí es todo diferente, es hora de que pagues por ello
+@choice "¿Aceptar las consecuencias? No digas tonterías." goto:Dialogue2-Part4.BranchA-B-B-A
+@choice "Como quieras, yo sé que fue un accidente, que no era lo previsto... y tú también." goto:Dialogue2-Part4.BranchA-B-B-B
+@stop
+# BranchB-A-A
+No intentes controlarme con tus juegos mentales. Todo fue un error, !un maravilloso error!
+@choice "Tú misma lo has dicho, un error." goto:Dialogue2-Part4.BranchB-A-A-A
+@choice "No intento controlarte, sólo quiero que comprendas la situación" goto:Dialogue2-Part4.BranchB-A-A-B
+@stop
+# BranchB-A-B
+¿Te crees gracioso, pequeño pirómano? Creo que no comprendes la situación en la que te encuentras ¡Te arrepentirás si continuas así!
+@choice "¿¡De verdad eres tan inútil?! Hazte un favor y recuerda bien" goto:Dialogue2-Part4.BranchB-A-B-A
+@choice "Eres una ignorante por atender a la consecuencia y no a la intención" goto:Dialogue2-Part4.BranchB-A-B-B
+@stop
+# BranchB-B-A
+Crees que actuando así tendrás la oportunidad de salir de aquí pero la respuesta es no...
+Eres el culpable y yo el juez...
+@choice "No fue mi culpa, no fue intencionado." goto:Dialogue2.BranchB-B-A-A
+@choice "¿Y exactamente de que soy culpable?" goto:Dialogue2.BranchB-B-A-B
+@stop
+# BranchB-B-B
+¿Darme cuenta?
+Yo lo vi todo... TODO...
+Es culpa tuya, lo sé...
+@choice "Si soy el culpable de un buen acto, entonces soy culpable" goto:Dialogue2-Part4.BranchB-B-B-A
+@choice "No es culpa nuestra, ¿no recuerdas la intención?" goto:Dialogue2-Part4.BranchB-B-B-B
+@stop

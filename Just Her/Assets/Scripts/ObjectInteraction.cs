@@ -4,28 +4,23 @@ using UnityEngine;
 using Naninovel;
 public class ObjectInteraction : MonoBehaviour
 {
-    Renderer renderer;
-    public string label;
-    [HideInInspector]
-    public bool isClicked;
+    public string scriptName;
     DirectorScript directorScript;
+    public Texture2D magnifierTexture;
     void Start()
     {
-        renderer = GetComponent<Renderer>();
         directorScript = FindObjectOfType<DirectorScript>();
     }
     public void OnMouseDown()
     {
-        isClicked = true;
-        Script playedScript = directorScript.scriptPlayer.PlayedScript;
-        directorScript.scriptPlayer.PreloadAndPlayAsync(playedScript.Name, label: label);
+        directorScript.scriptPlayer.PreloadAndPlayAsync(scriptName);
     }
     void OnMouseEnter()
     {
-        renderer.material.color = new Color(renderer.material.color.r, renderer.material.color.g, renderer.material.color.b, 0.5f);
+        Cursor.SetCursor(magnifierTexture, Vector2.zero, CursorMode.Auto);
     }
     void OnMouseExit()
     {
-        renderer.material.color = new Color(renderer.material.color.r, renderer.material.color.g, renderer.material.color.b, 1f);
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 }

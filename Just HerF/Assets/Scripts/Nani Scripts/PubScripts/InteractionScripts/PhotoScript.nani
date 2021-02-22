@@ -1,0 +1,30 @@
+@if hasSpokenOnce==false
+	Arion: �Fuego?
+@choice Inspeccionar goto:.Inspeccionar
+@choice Dejar goto:.Dejar
+@stop
+# Inspeccionar
+	Arion: �A qu� me recuerda esto? No estoy seguro�
+	Arion: El olor a ceniza de este lugar es realmente agobiante�
+	Arion: A�n me encuentro un poco mareado, quiz�s m�s tarde lo vea con mejor claridad�
+@hide Dialogue
+@stop
+# Dejar
+	Arion: A�n me encuentro un poco mareado, quiz�s m�s tarde lo vea con mejor claridad�
+@hide Dialogue
+@stop
+@elseif hasSpokenOnce==true
+@loadScene FillerScene
+	Mamá...
+	No te preocupes, yo te prepararé la comida, tú descansa.
+	¡Cuando Papá vea lo que te voy a hacer dejará de estar tan triste!
+@hide Dialogue
+@loadScene PubScene
+	Arion: Pero no fue así...
+	Arion:  Ella me entiende, entiende que fue un accidente…
+	Arion: Odio el fuego.
+@set hasSeenPubFlashback=true
+@set hasSpokenOnce=false
+@hide Dialogue
+@endif
+@stop

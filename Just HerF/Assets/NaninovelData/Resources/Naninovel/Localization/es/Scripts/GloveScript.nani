@@ -1,0 +1,23 @@
+; Localization script for `GloveScript`
+
+# 2e43dddb
+; Arion: Esta manopla� �Es la que usaba ella cuando cocin�bamos juntos?
+Arion: Esta manopla... ¿Es la que usaba ella cuando cocinábamos juntos?
+
+# c4dbc82f
+; Arion: Debo salir de aqu� Ella a�n me espera�
+Arion: Debo salir de aquí. Ella aún me espera.
+
+# c1453c67
+; @choice Inspeccionar goto:.Inspeccionar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# aab1fe21
+; Arion: Todav�a mantiene el calor de sus manos� Espero que ella est� bien� 
+Arion: Todavía mantiene el calor de sus manos. Espero que ella esté bien.
+
+# 1aff4d36
+; Arion: Esa cr�a y sus juegos...
+Arion: Esa cría y sus juegos...

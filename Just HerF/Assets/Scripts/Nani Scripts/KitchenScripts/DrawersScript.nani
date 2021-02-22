@@ -1,0 +1,13 @@
+Arion: Unos cuantos cajones.
+@choice "Inspeccionar" goto:.Inspeccionar
+@choice "Dejar" goto:.Dejar
+@stop
+# Inspeccionar
+*Arion abre los cajones*
+Arion: Nada de nada… Está más vacío que la cabeza de esa niñata.
+@hide Dialogue
+@stop
+# Dejar
+Arion: No creo que haya nada ahí dentro...
+@hide Dialogue
+@stop

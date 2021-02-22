@@ -1,0 +1,14 @@
+Arion: Unas cuantas barras de pan.
+Arion: Tiene sentido, es una cocina al fin y al cabo�
+Arion: No se cu�nto tiempo lleva aqu� pero tienen buena pinta.
+@choice Inspeccionar goto:.Interactuar
+@choice Dejar goto:.Dejar
+@stop
+# Inspeccionar
+Arion: Lo probar�a si no fuera porque no puedo comer gluten� La gen�tica es una loter�a.
+@hide Dialogue
+@stop
+# Dejar
+Arion: No puedo perder tiempo con �sto, debo investigar m�s� 
+@hide Dialogue
+@stop

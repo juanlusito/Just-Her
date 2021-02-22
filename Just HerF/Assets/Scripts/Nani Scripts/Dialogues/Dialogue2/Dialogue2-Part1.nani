@@ -1,0 +1,22 @@
+@char Ira.Silueta pos:"59, 25, -5.4" time:1
+???: �Qu� es lo que quieres ahora? �Acaso vienes a pedir perd�n?
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Eso no arreglar� nada, todo es por tu culpa.
+@choice "Lo s� todo, el incidente, lo recuerdo..." goto:.BranchA
+@choice "..." goto:.BranchB
+@stop
+# BranchA
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: �Bravo, felicidades al caballero!
+???: �Y qu� pretendes con eso, est�pido? �Disculparte?
+???: Eso no solucionar� nada de nada.
+@choice "Sabes que fue un accidente, �no?" goto:Dialogue2-Part2.BranchA-A
+@choice "Antes que nada, �qui�n eres exactamente?" goto:Dialogue2-Part2.BranchA-B
+@stop
+# BranchB
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+???: Me conoces perfectamente, al igual que yo te conozco a ti.
+Ira: Soy tu ira, tu frustraci�n, tu todo.
+@choice "Eso no tiene sentido... No puede ser... Entonces t�..." goto:Dialogue2-Part2.BranchB-A
+@choice "Creo que deber�as dejar el alcohol, te hace mal." goto:Dialogue2-Part2.BranchB-B
+@stop

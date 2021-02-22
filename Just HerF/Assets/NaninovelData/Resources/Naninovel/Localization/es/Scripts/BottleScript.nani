@@ -1,0 +1,44 @@
+; Localization script for `BottleScript`
+
+# 7c2cba9a
+; Arion: Una botella de alcohol.
+
+# 9f4ea83
+; Arion: S�lo traes problemas, nunca deb� confiar en t�...
+Arion: Sólo traes problemas, nunca debí confiar en tí...
+
+# 615404ac
+; @choice "Inspeccionar" goto:.Inspeccionar
+
+# 20280e4a
+; @choice "Dejar" goto:.Dejar
+
+# e542cc7b
+; Arion: No reconozco ese tipo de alcohol, ni siquiera uno de toda la repisa.
+
+# 61c0edf0
+; Arion: �Deber�a probarlo? Puede que as� lo reconozca...
+Arion: ¿Debería probarlo? Puede que así lo reconozca...
+
+# 2a9e02be
+; Arion: Hmm...
+
+# 4b337679
+; Arion: No... Deber�a de alejarme de ello, no trae nada bueno...
+Arion: No... Debería de alejarme de ello, no trae nada bueno...
+
+# 9487fa74
+; Arion: Aquella vez me equivoqu�, padre... si es que te puedo llamar as�.
+
+# 3c09905
+; Arion: Aunque �l realmente lo merec�a...
+Arion: Aunque él realmente lo merecía...
+
+# 2dc786a8
+; *Arion se pone a canturrear*
+
+# 3874c0b6
+; Arion: Alcohol, alcohol... Un gran traicionero...
+
+# 76223e79
+; *Arion deja la botella en su sitio*

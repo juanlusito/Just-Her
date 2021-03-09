@@ -1,0 +1,11 @@
+Arion: Creo que ya voy comprendiendo todo ésto.
+Arion: Realmente ésta es la taberna donde mi padre trabajaba.
+Arion: Mi padre… ¿Por qué estará esa loca de su lado?
+Arion: No tiene sentido pero…
+Arion: Necesito hacerla entrar en razón.
+Arion: Lo de mi madre no fue mi culpa… No se cuantas veces más tengo que decirlo…
+Arion: Y lo de mi padre… ¿A qué se refiere exactamente?
+Arion: Aún estoy un poco exhausto de todo ésto...
+@hide Dialogue
+@set hasSpokenTwice=true
+@stop

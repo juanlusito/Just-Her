@@ -1,0 +1,23 @@
+@if hasExaminedSymbol==false
+	Arion: �Y �sto?
+	Arion: �Qu� se supone que es... esta cosa?
+	Arion: �Aaagh!
+	Arion: �Este sitio me tiene harto!, �qu� es todo �sto?
+	@hide Dialogue
+	@goto Dialogue1-Part1
+@elseif hasSpokenOnce==true
+	No lo mereces, no lo mereces, no lo mereces...
+	@hide Dialogue
+	@stop
+@elseif "hasSeenPubFlashback==true && hasSpokenOnce==false"
+	@goto Dialogue2-Part1
+	@stop
+@elseif "hasSeenKitchenFlashback==true && hasSpokenTwice==true"
+	@goto Dialogue3-Part1
+	@stop
+@else
+	*Arion toca el símbolo pero nadie aparece*
+	@hide Dialogue
+	@stop
+@endif
+@stop

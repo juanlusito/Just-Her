@@ -1,0 +1,17 @@
+Arion: Este lugar es realmente extraño, aunque esas lámparas me suenan de algo...
+Arion: Hmmm... No sé muy bien a qué...
+Arion: Aún estoy un poco mareado...
+@choice "Inspeccionar" goto:.Inspeccionar
+@choice "Dejar" goto:.Dejar
+@stop
+# Inspeccionar
+Arion: ¿Puede ser que sean...?
+Arion: No, llevo sin a ese lugar desde el incidente...
+Arion: ¿No estaba yo en mi casa?
+@hide Dialogue
+@stop
+# Dejar
+Arion: Será mejor buscar algo o a alguien que me ayude a comprender lo que ocurre.
+Arion: Todo es tan confuso...
+@hide Dialogue
+@stop

@@ -1,0 +1,16 @@
+@loadScene FillerScene
+En este mundo existe algo que nunca nadie vi�.
+Es algo muy amable y dulce.
+Si alguien lo viera alguna vez seguramente quisieran volver a verlo.
+Por eso el mundo elige esconderlo, para que sea dif�cil obtenerlo.
+Pero un d�a alguien lo encontrar�...
+Y ese alguien ser� quien estaba destinado a hacerlo...
+... Porque asi deberia ser.
+@loadScene PubScene
+@hide Dialogue
+???: �Qu� es todo �sto...?
+???: A�n estoy confundido, no recuerdo bien por qu� estoy aqu�...
+???: Por lo menos a�n recuerdo mi nombre...
+???: Arion.
+@hide Dialogue
+@stop

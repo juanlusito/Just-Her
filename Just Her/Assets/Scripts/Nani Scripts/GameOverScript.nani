@@ -1,0 +1,18 @@
+@back GameOverBackground
+@wait 1.5
+@choice  button:Naninovel/Buttons/NewGameButton pos:500,-100 handler:ButtonArea goto:.NewGame
+@choice  button:Naninovel/Buttons/ExitButton pos:500,100 handler:ButtonArea goto:.Exit
+@stop
+# NewGame
+@hide MainBackground
+@set hasExaminedSymbol=false
+@set hasSpokenOnce=false
+@set hasSeenPubFlashback=false
+@set hasSpokenTwice=false
+@set hasSeenKitchenFlashback=false
+@goto GameIntroScript
+@stop
+# Exit
+@hide MainBackground
+@title
+@stop

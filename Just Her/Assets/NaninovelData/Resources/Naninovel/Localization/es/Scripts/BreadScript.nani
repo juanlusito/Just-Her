@@ -1,0 +1,26 @@
+; Localization script for `BreadScript`
+
+# 652cb8a4
+; Arion: Unas cuantas barras de pan.
+
+# 114ecfec
+; Arion: Tiene sentido, es una cocina al fin y al cabo�
+Arion: Tiene sentido, es una cocina al fin y al cabo...
+
+# 6a2b988f
+; Arion: No se cu�nto tiempo lleva aqu� pero tienen buena pinta.
+Arion: No se cu�nto tiempo llevan aquí pero tienen buena pinta.
+
+# 3538ebaa
+; @choice Inspeccionar goto:.Interactuar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# dc56f2f0
+; Arion: Lo probar�a si no fuera porque no puedo comer gluten� La gen�tica es una loter�a.
+Arion: Lo probaría si no fuera porque no puedo comer gluten... La genética es una lotería.
+
+# a79fa56d
+; Arion: No puedo perder tiempo con �sto, debo investigar m�s� 
+Arion: No puedo perder tiempo con ésto, debo investigar más.

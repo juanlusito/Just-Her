@@ -5,7 +5,7 @@ using Naninovel.UI;
 public class DialogueScript : MonoBehaviour
 {
     DirectorScript directorScript;
-    RevealableTextPrinterPanel dialogueTextScript;
+    [HideInInspector] public RevealableTextPrinterPanel dialogueTextScript;
     void Start()
     {
         dialogueTextScript = GetComponent<RevealableTextPrinterPanel>();
@@ -17,8 +17,7 @@ public class DialogueScript : MonoBehaviour
             directorScript = FindObjectOfType<DirectorScript>();
             if (directorScript != null)
             {
-                dialogueTextScript.onShow.AddListener(directorScript.DisableObjectInteraction);
-                dialogueTextScript.onHide.AddListener(directorScript.EnableObjectInteraction);
+                dialogueTextScript.onHide.AddListener(directorScript.StartZoomOut);
             }
         }
     }

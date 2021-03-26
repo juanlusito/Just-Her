@@ -254,7 +254,55 @@ MonoBehaviour:
       PathPrefix: Characters/Ira
       Guid: 6ee125e99b2e8224bb65ddaf80274b99
   - Id: Audio
-    Resources: []
+    Resources:
+    - Name: baka mejorado
+      PathPrefix: Audio
+      Guid: 2bc18e41f740531428a7349b6d42d800
+    - Name: bakk
+      PathPrefix: Audio
+      Guid: 64de42ab54241e64eadc3d6468652e7a
+    - Name: interrogativo
+      PathPrefix: Audio
+      Guid: 84979ae1c42fb5a4f9a2c7da5a682052
+    - Name: kuso
+      PathPrefix: Audio
+      Guid: e90f5fae7b8745640a5402a57680fb69
+    - Name: queja
+      PathPrefix: Audio
+      Guid: 0d0fe1e4c10858841978b64c7a0b6a32
+    - Name: risa
+      PathPrefix: Audio
+      Guid: 9214c17f8516a844fbe4f568c0f7ef20
+    - Name: shine enfado
+      PathPrefix: Audio
+      Guid: 9594ce67af4a0bb4dacab56e6bdd4170
+    - Name: sonido interrogativo 4
+      PathPrefix: Audio
+      Guid: c12ad3d6c7dff7242b3eb7d6aafc4d0f
+    - Name: sonido queja
+      PathPrefix: Audio
+      Guid: 5075007948ad0ac41a716ce93d778a38
+    - Name: suspira
+      PathPrefix: Audio
+      Guid: a7f35f4a541f72e428a3d5fd26996a99
+    - Name: urusai
+      PathPrefix: Audio
+      Guid: 4c6fdf2d0e9546d4ebc17e23063db3e8
+    - Name: cocina
+      PathPrefix: Audio
+      Guid: af7da0134db62b441a7523350d91843e
+    - Name: ganar
+      PathPrefix: Audio
+      Guid: 1cb2ce7b024cf4947ab23e4e83b9f292
+    - Name: introperfe
+      PathPrefix: Audio
+      Guid: 18359a9e868011e42a7ebae859cee866
+    - Name: salon
+      PathPrefix: Audio
+      Guid: 6aeedfbea54c9c344b8fe3436b0e4ceb
+    - Name: posiblemuerte
+      PathPrefix: Audio
+      Guid: e4701a8eebd894b4da02fb31bf1fb096
   - Id: Backgrounds/6797e6be-0874-4a12-b99d-e7832daf5eb0
     Resources:
     - Name: TitleBackground
@@ -262,7 +310,7 @@ MonoBehaviour:
       Guid: 52fabaa92a7e18048a4c8d317d7c238d
     - Name: GameOverBackground
       PathPrefix: Backgrounds/MainBackground
-      Guid: 15d5999a57216624ba9b0a3f2bbaf1ff
+      Guid: a1fac2a43963ec049aa932a70fb0d1af
     - Name: BackgroundFiller
       PathPrefix: Backgrounds/MainBackground
       Guid: 7eeeefab61c64ca4a97736d630841a7c

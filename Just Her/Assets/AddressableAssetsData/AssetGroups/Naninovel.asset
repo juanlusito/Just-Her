@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Naninovel
+  m_EditorClassIdentifier: 
+  m_GroupName: Naninovel
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 182a652d3626b1646bfee1e8b4ca0eae
+  m_SerializeEntries:
+  - m_GUID: 0126b92e4ff0f564aaa7a38eae3ef6e7
+    m_Address: Naninovel/TextPrinters/Chat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 034bae49c40f48747b7083053f94e23e
+    m_Address: Naninovel/UI/PauseUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0f7bb9bfa162d614688d8a293050c361
+    m_Address: Naninovel/Scripts/DrawersScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1224d69e1592d624cbde93d0f7383d91
+    m_Address: Naninovel/Spawn/ShakeCharacter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 126841dc69e82dc468aabdcfb2e1489f
+    m_Address: Naninovel/Characters/Ira/Pensativa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 18cfa78b5fc89b745ba69d51a6a8629a
+    m_Address: Naninovel/TextPrinters/TMProBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1a6c03d9dfdad0f40a2c5a25026f9cda
+    m_Address: Naninovel/Characters/Ira/Enfadada
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1add671f8348e8443bcc56290e82fc5e
+    m_Address: Naninovel/UI/ContinueInputUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1c5b86cf3cfbb1f44ae5641699077da4
+    m_Address: Naninovel/Spawn/ShakeCamera
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1f61f2ec533dbac498fff52d51f21b0a
+    m_Address: Naninovel/UI/BacklogUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1f6aa29000e839c409e6a9c0704adc96
+    m_Address: Naninovel/ChoiceHandlers/ButtonList
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 225f53e6b329a444b89184cde3791a0c
+    m_Address: Naninovel/UI/TitleUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2795040988e866646801c80024c50be1
+    m_Address: Naninovel/Spawn/ShakePrinter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2a72a86de012d0540811ad9e1694d49c
+    m_Address: Naninovel/Scripts/KitchenNoteScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 30ac9ce4e62fdde49ace265d105bb4a5
+    m_Address: Naninovel/Scripts/Dialogue3-Part3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 312439f889bb8c046a437fbe547c378b
+    m_Address: Naninovel/UI/ConfirmationUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 40a47d2b8cd41f645822e61b9aa871ce
+    m_Address: Naninovel/Scripts/Dialogue3-Part1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 41c753844707b3246935acad1126dce9
+    m_Address: Naninovel/Scripts/LampScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 492eecc1e569d354790fc674ef4d6778
+    m_Address: Naninovel/Scripts/Dialogue2-Part2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4a02218ade24c304090e932aed4446ad
+    m_Address: Naninovel/Backgrounds/MainBackground/GameOverBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4e3ca309063e97c41ae93866a95657ba
+    m_Address: Naninovel/TextPrinters/Dialogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4fa6d62f894ae6e4698bfa8af59e7942
+    m_Address: Naninovel/ChoiceHandlers/ButtonArea
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 52fabaa92a7e18048a4c8d317d7c238d
+    m_Address: Naninovel/Backgrounds/MainBackground/TitleBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 53aad00e5cf184e458adb001c550518a
+    m_Address: Naninovel/UI/LoadingUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 57b67208d6bffc045a3d5a0d9d312cf3
+    m_Address: Naninovel/Scripts/KitchenToPub
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5838611042eaced44954639c4ea4d81e
+    m_Address: Naninovel/TextPrinters/TMProDialogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5a85747cd4b4be64cb6f30160c9329ac
+    m_Address: Naninovel/Backgrounds/MainBackground/VictoryBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5df52bd24482e5b4d8743018656b7a2a
+    m_Address: Naninovel/Scripts/MainMenuScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 622cd6ef04a23054284ea003c2dd0941
+    m_Address: Naninovel/Scripts/FlowerScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 671ceb4f549ddf046913d7debf113469
+    m_Address: Naninovel/UI/ExternalScriptsUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6a68c56104ca0d743802e199197d4051
+    m_Address: Naninovel/Scripts/Dialogue2-Part4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6ee125e99b2e8224bb65ddaf80274b99
+    m_Address: Naninovel/Characters/Ira/Alegre
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 702c32b2de0c0784b9a66ec90601874f
+    m_Address: Naninovel/UI/ClickThroughPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 71da50c8dae82bd42ba67528804e820c
+    m_Address: Naninovel/UI/CGGalleryUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 732ec99ff3610fd48a27ea6f068fcc72
+    m_Address: Naninovel/Scripts/Dialogue2-Part1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 781828b806deb1e4cbf50ef9de41da10
+    m_Address: Naninovel/TextPrinters/Wide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7860ef40eae6a3341be02586f7edd980
+    m_Address: Naninovel/TextPrinters/TMProWide
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7bf06fa813bb9c34daf521998fa72ab1
+    m_Address: Naninovel/Spawn/Animate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7eeeefab61c64ca4a97736d630841a7c
+    m_Address: Naninovel/Backgrounds/MainBackground/BackgroundFiller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7f5b8844e7382784dab5a89e635721d9
+    m_Address: Naninovel/Scripts/Dialogue1-Part2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7f9d57ab0b0d88546b088cfaef17284d
+    m_Address: Naninovel/Scripts/PubToKitchen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 85399a03b0e954042acce120447b7839
+    m_Address: Naninovel/Scripts/Dialogue1-Part1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 897f02e488d68d6458b84d2a78df9a5b
+    m_Address: Naninovel/Scripts/GameOverScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8a2e1e465f661ed4186392e367aef77e
+    m_Address: Naninovel/Scripts/AfterDialogue2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8b1f3f7181fd5534bbe98db07edb7d7a
+    m_Address: Naninovel/Scripts/GameIntroScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8d53726b3d08433479398f02b4780e7f
+    m_Address: Naninovel/UI/SaveLoadUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 939d376dbb433c64e9de4b290b40328f
+    m_Address: Naninovel/UI/SettingsUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9a17d15ba13cf6f40bbb235a72d885a6
+    m_Address: Naninovel/Characters/Ira/Silueta
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9f4e71cb27fffa04486737d2cf8d622d
+    m_Address: Naninovel/Spawn/Snow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9f56c556ba32fd54fae62347c25a8145
+    m_Address: Naninovel/Spawn/ShakeBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a2aaa417785eeca409e78c404f333ee5
+    m_Address: Naninovel/TextPrinters/TMProFullscreen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a32c73a3aff4b274c85b3ff16c854b07
+    m_Address: Naninovel/UI/RollbackUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a7d48827294c9b64c8bb59e9930a913a
+    m_Address: Naninovel/Scripts/SymbolScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a9117e2fa90704d45b3e1461596c11ee
+    m_Address: Naninovel/Spawn/Rain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: acd5f71f3b273934da23eee3e283fd77
+    m_Address: Naninovel/Scripts/GloveScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b1c52c10de95a3b499a410b67fe6aaa7
+    m_Address: Naninovel/Scripts/PubNoteScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b3df78ab9d8a94b41887be1c907e63a9
+    m_Address: Naninovel/Scripts/VictoryScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b474bbb2a5305334fbc046a5e744959b
+    m_Address: Naninovel/Scripts/BottleScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b47d9659b2be5ee4e95a776f213c9d4b
+    m_Address: Naninovel/TextPrinters/Bubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bb95f484e341dcd4391a572f22b7d067
+    m_Address: Naninovel/UI/VariableInputUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bc582b2bd1e1f374d9da2cd463a023ab
+    m_Address: Naninovel/Characters/Ira/Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: be75a73ecccb90b4caa5c14edb9ac467
+    m_Address: Naninovel/Spawn/DigitalGlitch
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bf035aa2ae2ced14baea9f199564b417
+    m_Address: Naninovel/Scripts/BreadScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c4bf810b9b6cc9f44a58fd670678ded4
+    m_Address: Naninovel/Spawn/SunShafts
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c87cebd3f0d4f174789cd351ce9591c4
+    m_Address: Naninovel/TextPrinters/Fullscreen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d1a842be8fddbc04184087ea079bc024
+    m_Address: Naninovel/Scripts/Dialogue1-Part3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d810f8aeeafe95146903e32e8d6b18cc
+    m_Address: Naninovel/Scripts/Dialogue2-Part3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e3b234b4273b7f64ab3f1d9fe425ed23
+    m_Address: Naninovel/UI/SceneTransitionUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e50e8c98f35d5d84a9844c566c52d250
+    m_Address: Naninovel/Scripts/Dialogue3-Part2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ea076cabf19d2e9438ff19f89a67e04c
+    m_Address: Naninovel/Scripts/PhotoScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ea76638b26a915946b62907dd1e776fd
+    m_Address: Naninovel/Spawn/DepthOfField
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f15062485cc2722478da9805ab1d37fb
+    m_Address: Naninovel/Scripts/ChandelierScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f5aae572225ee1b4c96d1a17fc5cb073
+    m_Address: Naninovel/UI/TipsUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f9a211517d1cb1a44964dc2254463049
+    m_Address: Naninovel/UI/MovieUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 13dc593f0ea2d124198732d2f819d008, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2bddbb59c3040004cb45193549b5bc45, type: 2}
+    - {fileID: 11400000, guid: 89b2a738e12d87a42a2b090ec422a7a7, type: 2}

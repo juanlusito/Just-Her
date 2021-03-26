@@ -1,4 +1,5 @@
 # BranchA-A
+@sfx queja
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: Tienes agallas... pero eres un completo imb�cil, por eso est�s aqu�...
 @choice "Intentar golpearle" goto:Dialogue1-Part3.BranchA-A-A
@@ -17,6 +18,7 @@
 @choice "Yo no hice nada..." goto:Dialogue1-Part3.BranchB-A-B
 @stop
 # BranchB-B
+@sfx risa
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: Veo que a�n la recuerdas, qu� pena...
 @choice "�C�mo te atreves a hablar as�" goto:Dialogue1-Part3.BranchB-B-A

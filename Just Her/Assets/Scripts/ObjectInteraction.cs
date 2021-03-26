@@ -5,23 +5,24 @@ using UnityEngine.Events;
 public class ObjectInteraction : MonoBehaviour
 {
     public string scriptName;
-    DirectorScript directorScript;
     public Texture2D magnifierTexture;
-    [HideInInspector]
-    public GameObject pressedObject;
+    [HideInInspector] public GameObject pressedObject;
+    DirectorScript directorScript;
     CameraMovement cameraScript;
     delegate void ClickedAction();
-    event ClickedAction cameraEvent;
+    event ClickedAction clickEvents;
     void Start()
     {
-        directorScript = GameObject.Find("Director").GetComponent<DirectorScript>();
         cameraScript = GameObject.Find("Main Camera").GetComponent<CameraMovement>();
-        cameraEvent += cameraScript.ZoomCamera;
+        directorScript = FindObjectOfType<DirectorScript>();
+        clickEvents += cameraScript.SetDirection;
+        clickEvents += directorScript.DisableObjectInteraction;
     }
     public void OnMouseDown()
     {
-        cameraEvent();
-        // directorScript.scriptPlayer.PreloadAndPlayAsync(scriptName);
+        cameraScript.pressedObject = gameObject;
+        directorScript.scriptName = scriptName;
+        clickEvents();
     }
     void OnMouseEnter()
     {

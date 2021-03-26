@@ -1,3 +1,4 @@
+@sfx risa
 ???: Vaya, vaya...
 @char Ira.Silueta pos:"59, 25, -5.4" time:1
 ???: Mira a qui�n tenemos aqu�...
@@ -11,6 +12,7 @@
 @choice ... goto:Dialogue1-Part2.BranchA-B
 @stop
 # BranchB
+@sfx interrogativo
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: Veo que el gato te comi� la lengua, como aquella vez, cuando todo era fuego. 
 ???: �Fant�stico! �S�! Eso fue incre�ble, �no crees?

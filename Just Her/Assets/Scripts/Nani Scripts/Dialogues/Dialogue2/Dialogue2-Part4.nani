@@ -10,6 +10,7 @@ Arion: �Padre? �l...
 @goto AfterDialogue2
 @stop
 # BranchA-A-A-B
+@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 Ira: �Arrogante? Creo que no entiendes la posici�n en la que est�s, al igual que no entiendes que no puedes arreglar lo ocurrido...
 Ira: Padre ten�a raz�n, �la ten�a!
@@ -54,6 +55,7 @@ Arion: �Padre? Hmm...
 @stop
 # BranchA-B-A-B
 Arion: Deber�as ver las cosas desde el inicio hasta el final, la intenci�n y la consecuencia...
+@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 Ira: �Ca-c�llate! Pa-padre no opinaba as�...
 @hide Ira time:1
@@ -76,6 +78,7 @@ Arion: Se ha ido...
 @stop
 # BranchA-B-B-B
 Arion: Como quieras, yo s� que fue un accidente, que no era lo previsto... y t� tambi�n.
+@sfx interrogativo
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
 Ira: �"Lo s�"? Supongamos que tienes raz�n...
 Ira: Entonces expl�came por qu� padre hac�a lo que hac�a.
@@ -86,6 +89,7 @@ Arion: Padre...
 @goto AfterDialogue2
 @stop
 # BranchB-A-A-A
+@sfx kuso
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
 Ira: Eso nos quita el hecho de que padre nos tratara as�...
 @hide Ira time:1
@@ -126,6 +130,7 @@ Arion: Padre no ten�a raz�n...
 @goto AfterDialogue2
 @stop
 # BranchB-B-A-A
+@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 Ira: �Yo, yo! !Yo, yo y yo!
 Ira: S�lo piensas en t� y no en los dem�s, �en padre!

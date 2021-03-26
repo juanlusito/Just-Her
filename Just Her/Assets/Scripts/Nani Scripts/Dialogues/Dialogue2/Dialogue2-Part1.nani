@@ -1,3 +1,4 @@
+@sfx queja
 @char Ira.Silueta pos:"59, 25, -5.4" time:1
 ???: �Qu� es lo que quieres ahora? �Acaso vienes a pedir perd�n?
 @char Ira.Default pos:"59, 25, -5.4" time:1
@@ -6,6 +7,7 @@
 @choice "..." goto:.BranchB
 @stop
 # BranchA
+@sfx risa
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: �Bravo, felicidades al caballero!
 ???: �Y qu� pretendes con eso, est�pido? �Disculparte?

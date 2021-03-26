@@ -2,20 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Naninovel;
+using Naninovel.UI;
 using System;
 public class DirectorScript : MonoBehaviour
 {
     public IScriptPlayer scriptPlayer = Engine.GetService<IScriptPlayer>();
+    [HideInInspector] public string scriptName;
     public GameObject[] interactiveObjectsArray;
-    [HideInInspector]
-    public GameObject cameraObject;
-    public string currentLabel;
+    CameraMovement cameraScript;
+    // public string currentLabel;
     void Start()
     {
+        cameraScript = GameObject.Find("Main Camera").GetComponent<CameraMovement>();
         interactiveObjectsArray = GameObject.FindGameObjectsWithTag("InteractiveObject");
     }
     void Update()
     {
+        if (cameraScript.hasZoom_InEnded == true)
+        {
+            scriptPlayer.PreloadAndPlayAsync(scriptName);
+            cameraScript.hasZoom_InEnded = false;
+        }
         /*currentLabel = scriptPlayer.PlayedScript.GetLabelForLine(scriptPlayer.PlayedIndex);
         Debug.Log(currentLabel);
         if (scriptPlayer.PlayedCommand.ToString() == "Naninovel.Commands.Stop")
@@ -53,5 +60,9 @@ public class DirectorScript : MonoBehaviour
             Collider collider = interactiveObject.GetComponent<Collider>();
             collider.enabled = false;
         }
+    }
+    public void StartZoomOut()
+    {
+        cameraScript.StartCoroutine("ZoomOut");
     }
 }

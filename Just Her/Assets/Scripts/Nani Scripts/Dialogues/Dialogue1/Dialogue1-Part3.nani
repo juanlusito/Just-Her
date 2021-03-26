@@ -14,6 +14,7 @@ Arion: �C�mo? �E-Espera, n-no fue mi culpa!
 @goto GameOverScript
 @stop
 # BranchA-A-B
+@sfx suspiro
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
 ???: �Ahora quieres hablar? Qu� indeciso, pensaba que me golpear�as o algo por el estilo... 
 ???: En fin, ya tendremos tiempo de hablar. 
@@ -43,6 +44,7 @@ Arion: Todo es demasiado extra�o...
 @hide Dialogue
 @stop
 # BranchA-B-B
+@sfx urusai
 Arion: �Qui�n te crees que eres para hablar as�? �Qu� es lo que sabes?
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 ???: Eres muy pesado.
@@ -71,6 +73,7 @@ Arion: No es lo que t� crees...
 @hide Dialogue
 @stop
 # BranchB-A-B
+@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 ???: Arrogante... despreciable... me cansas.
 @hide Ira time:1
@@ -93,6 +96,7 @@ Arion: No es lo que piensas...
 @hide Dialogue
 @stop
 # BranchB-B-B
+@sfx interrogativo
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 ???: �C�mo que no? �Era nuestra madre!
 ???: �Es tu culpa, todo es por tu culpa! �TODO!

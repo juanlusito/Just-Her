@@ -18,12 +18,14 @@ Ira: S� todo sobre t�, s� lo que le hiciste a mam�...
 @choice "�Entonces porque no comprendes que no fue mi error?" goto:Dialogue2-Part3.BranchA-B-B
 @stop
 # BranchB-A
+@sfx risa
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: �S�! �Lo s� todo, peque�o pir�mano! Y pagar�s por ello...
 @choice "Lo sabr�s todo pero no entiendes nada" goto:Dialogue2-Part3.BranchB-A-A
 @choice "No entiendo c�mo no comprendes nada." goto:Dialogue2-Part3.BranchB-A-B
 @stop
 # BranchB-B
+@sfx risa
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: Mira qui�n habla, �a tu padre tambi�n le hac�a mal, despu�s de lo de madre, y antes!
 Ira: �Fant�stico!

@@ -13,13 +13,6 @@ MonoBehaviour:
   m_Name: ScriptGraphState
   m_EditorClassIdentifier: 
   NodesState:
-  - ScriptName: MainMenuScript
-    Position:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: NaN
-      height: NaN
   - ScriptName: Dialogue1-Part1
     Position:
       serializedVersion: 2

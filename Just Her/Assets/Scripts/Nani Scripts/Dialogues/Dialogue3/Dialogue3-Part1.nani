@@ -1,3 +1,4 @@
+@sfx suspiro
 @char Ira.Silueta pos:"59, 25, -5.4" time:1
 Ira: Ya no s� qu� hacer contigo... Me confundes...
 @char Ira.Default pos:"59, 25, -5.4" time:1
@@ -8,6 +9,7 @@ Ira: Me est�s hartando...
 @choice "Afrontar la realidad es duro, pero es lo que toca. Creo que padre no escogi� bien el camino a seguir..." goto:.BranchB
 @stop
 # BranchA
+@sfx interrogativo
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
 Ira: Pero... �por qu�?
 Ira: N-no hay esperanzas de cambiar...
@@ -17,6 +19,7 @@ Ira: Nadie...
 @choice "Nadie nunca nos confi� nada, pero por ello tenemos ahora una oportunidad y tenemos que aprovecharla, tenemos que afrontar todo y seguir..." goto:Dialogue2-Part2.BranchA-B
 @stop
 # Branch B
+@sfx interrogativo
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 Ira: �Y t� que sabes de afrontar realidades?
 Ira: Hu�ste de todo, dejaste todas nuestras esperanzas atr�s porque eres un cobarde, un in�til frustrado por dentro.

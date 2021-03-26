@@ -6,6 +6,7 @@ Ira: �S�, fue tu error, TU ERROR!
 @choice "Eres una arrogante, al igual que yo, y por ello no entiendes nada" goto:Dialogue2-Part4.BranchA-A-A-B
 @stop
 # BranchA-A-B
+@sfx interrogativo
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
 Ira: �Intenci�n?
 @choice "Existe una palabra llamada intenci�n, tiene significado y todo." goto:Dialogue2-Part4.BranchA-A-B-A
@@ -13,6 +14,7 @@ Ira: �Intenci�n?
 @stop
 # BranchA-B-A
 Arion: �Deja de decir estupideces, acepta la realidad! M�tetelo en la cabeza.
+@sfx babaka
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 Ira: De-deja de intentar controlarme de una vez. 
 Ira: �Me est�s confundiendo! 
@@ -35,6 +37,7 @@ Ira: No intentes controlarme con tus juegos mentales. Todo fue un error, !un mar
 @stop
 # BranchB-A-B
 Arion: Si lo sabes todo o, m�s bien, eres yo, entonces eres una est�pida.
+@sfx interrogativo
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 Ira: �Te crees gracioso, peque�o pir�mano? Creo que no comprendes la situaci�n en la que te encuentras �Te arrepentir�s si continuas as�!
 @choice "��De verdad eres tan in�til?! Hazte un favor y recuerda bien" goto:Dialogue2-Part4.BranchB-A-B-A
@@ -49,6 +52,7 @@ Ira: Eres el culpable y yo el juez...
 @choice "�Y exactamente de que soy culpable?" goto:Dialogue2.BranchB-B-A-B
 @stop
 # BranchB-B-B
+@sfx interrogativo
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: �Darme cuenta?
 Ira: Yo lo vi todo... TODO...

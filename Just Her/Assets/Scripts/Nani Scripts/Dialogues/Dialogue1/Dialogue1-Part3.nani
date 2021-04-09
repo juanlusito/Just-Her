@@ -3,6 +3,7 @@ Arion: Cierro mi pu�o y voy directo a la cara...
 Arion: Pero ella esquiva r�pidamente el golpe.
 ; Ira
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 ???: Veo que no lo entiendes. 
 ???: Quiz�s deber�a prenderte fuego a ti tambi�n... �como a ella!
 ; MC
@@ -44,9 +45,10 @@ Arion: Todo es demasiado extra�o...
 @hide Dialogue
 @stop
 # BranchA-B-B
-@sfx urusai
 Arion: �Qui�n te crees que eres para hablar as�? �Qu� es lo que sabes?
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx urusai
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 ???: Eres muy pesado.
 ???: "�Qui�n eres? �Qu� quieres?" �Algo m�s?
 ???: �AGH, me hartas!
@@ -73,8 +75,9 @@ Arion: No es lo que t� crees...
 @hide Dialogue
 @stop
 # BranchB-A-B
-@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx urusai
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 ???: Arrogante... despreciable... me cansas.
 @hide Ira time:1
 ; Vuelta al mapa, MC habla
@@ -85,6 +88,7 @@ Arion: Pero qu�... �E-espera!
 @stop
 # BranchB-B-A
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 ???: Porque s� lo que hiciste.
 ???: Lo s� todo sobre ti...
 ???: Y te arrepentir�s...
@@ -98,6 +102,7 @@ Arion: No es lo que piensas...
 # BranchB-B-B
 @sfx interrogativo
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 ???: �C�mo que no? �Era nuestra madre!
 ???: �Es tu culpa, todo es por tu culpa! �TODO!
 ; MC

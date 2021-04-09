@@ -9,17 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScene.unity
     guid: 0262f21fe0cdf934a87809e609f6d4f5
   - enabled: 1
-    path: Assets/Scenes/GameIntroScene.unity
-    guid: ea54cdf12390a614593ca65745e26d66
+    path: Assets/Scenes/BasementScene.unity
+    guid: d6b558a4c74cd9c4c9f6d933800de435
   - enabled: 1
     path: Assets/Scenes/FillerScene.unity
     guid: 42ece40a0e457324282b41d613c2f036
   - enabled: 1
-    path: Assets/Scenes/PubScene.unity
+    path: Assets/Scenes/PubScene/PubScene.unity
     guid: b9c1dcd5695d590468541fac8d9a90f0
   - enabled: 1
-    path: Assets/Scenes/KitchenScene.unity
+    path: Assets/Scenes/KitchenScene/KitchenScene.unity
     guid: 6d7f6b4095d2a0740a970ef323b46969
+  - enabled: 1
+    path: Assets/Scenes/NewScene.unity
+    guid: aadcfcd1ce34dde41aa63a1d4cd42d29
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 41cc61269968d884880ea12e03f22ccb,
       type: 2}

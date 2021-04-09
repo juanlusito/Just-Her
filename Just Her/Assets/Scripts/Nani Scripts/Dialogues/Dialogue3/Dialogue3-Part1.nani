@@ -21,6 +21,7 @@ Ira: Nadie...
 # Branch B
 @sfx interrogativo
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Y t� que sabes de afrontar realidades?
 Ira: Hu�ste de todo, dejaste todas nuestras esperanzas atr�s porque eres un cobarde, un in�til frustrado por dentro.
 Ira: Padre opt� por ese camino por tu culpa... Porque nunca te desearon...

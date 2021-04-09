@@ -10,8 +10,9 @@ Arion: �Padre? �l...
 @goto AfterDialogue2
 @stop
 # BranchA-A-A-B
-@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx interrogativo
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Arrogante? Creo que no entiendes la posici�n en la que est�s, al igual que no entiendes que no puedes arreglar lo ocurrido...
 Ira: Padre ten�a raz�n, �la ten�a!
 Ira: Al final y al cabo la ten�a.
@@ -23,6 +24,7 @@ Arion: �Qu� tiene que ver padre en todo �sto?
 @stop
 # BranchA-A-B-A
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: No intentes distraerme, no evadas lo que le causaste a mam� y a padre...
 Ira: �Todo es por tu culpa! �Pagar�s por ello!
 ; MC
@@ -55,8 +57,9 @@ Arion: �Padre? Hmm...
 @stop
 # BranchA-B-A-B
 Arion: Deber�as ver las cosas desde el inicio hasta el final, la intenci�n y la consecuencia...
-@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx urusai
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Ca-c�llate! Pa-padre no opinaba as�...
 @hide Ira time:1
 @hide Dialogue
@@ -100,6 +103,7 @@ Arion: Padre...
 @stop
 # BranchB-A-A-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: Pues comprende t� que debes pagar por lo hecho, eso es lo que padre quer�a...
 ; MC
 Arion: �C�mo? �E-espera!
@@ -110,6 +114,7 @@ Arion: �C�mo? �E-espera!
 @stop
 # BranchB-A-B-A
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �NO ME DIGAS LO QUE TENGO O NO QUE HACER!
 Ira: Lo de mam�, lo de padre... �ES TU CULPA!
 ; MC
@@ -130,8 +135,9 @@ Arion: Padre no ten�a raz�n...
 @goto AfterDialogue2
 @stop
 # BranchB-B-A-A
-@sfx urusai
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx urusai
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Yo, yo! !Yo, yo y yo!
 Ira: S�lo piensas en t� y no en los dem�s, �en padre!
 ; MC
@@ -143,6 +149,7 @@ Arion: �C�mo? �E-espera!
 @stop
 # BranchB-B-A-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: ��Qu�!? ��Vas en serio!?
 Ira: Padre.. Madre...
 Ira: Todo es tu culpa.
@@ -168,6 +175,7 @@ Arion: Padre...
 @stop
 # BranchB-B-B-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: Mam�...
 Ira: �Eso no explica lo que le ocurri� a padre!
 @hide Ira time:1

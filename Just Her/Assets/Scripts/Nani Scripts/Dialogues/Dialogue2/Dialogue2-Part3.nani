@@ -14,8 +14,9 @@ Ira: �Intenci�n?
 @stop
 # BranchA-B-A
 Arion: �Deja de decir estupideces, acepta la realidad! M�tetelo en la cabeza.
-@sfx babaka
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx babaka
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: De-deja de intentar controlarme de una vez. 
 Ira: �Me est�s confundiendo! 
 @choice "�S�lo era un acto para que se sintiera mejor!" goto:Dialogue2-Part4.BranchA-B-A-A
@@ -23,6 +24,7 @@ Ira: �Me est�s confundiendo!
 @stop
 # BranchA-B-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: Eres un arrogante que s�lo piensa en s� mismo, en no salir mal parado.
 Ira: Pero aqu� es todo diferente, es hora de que pagues por ello.
 @choice "�Aceptar las consecuencias? No digas tonter�as." goto:Dialogue2-Part4.BranchA-B-B-A
@@ -37,8 +39,9 @@ Ira: No intentes controlarme con tus juegos mentales. Todo fue un error, !un mar
 @stop
 # BranchB-A-B
 Arion: Si lo sabes todo o, m�s bien, eres yo, entonces eres una est�pida.
-@sfx interrogativo
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx interrogativo
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Te crees gracioso, peque�o pir�mano? Creo que no comprendes la situaci�n en la que te encuentras �Te arrepentir�s si continuas as�!
 @choice "��De verdad eres tan in�til?! Hazte un favor y recuerda bien" goto:Dialogue2-Part4.BranchB-A-B-A
 @choice "Eres una ignorante por atender a la consecuencia y no a la intenci�n" goto:Dialogue2-Part4.BranchB-A-B-B

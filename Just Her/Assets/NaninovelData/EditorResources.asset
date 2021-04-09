@@ -236,6 +236,9 @@ MonoBehaviour:
     - Name: VictoryScript
       PathPrefix: Scripts
       Guid: b3df78ab9d8a94b41887be1c907e63a9
+    - Name: TestScript
+      PathPrefix: Scripts
+      Guid: df8ffeec809354a48bf7a57f24ee5849
   - Id: Characters/63388797-caaf-4dae-a08c-b68900e5bfba
     Resources:
     - Name: Default

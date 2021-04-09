@@ -1,0 +1,5 @@
+@loadScene NewScene
+@char Ira
+Sample text
+@hide
+@stop

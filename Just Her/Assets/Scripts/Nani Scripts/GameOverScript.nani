@@ -1,21 +1,25 @@
 @back GameOverBackground
-@bgm posiblemuerte
+@bgm posiblemuerte time:1
 @wait 1.5
 @choice  button:Naninovel/Buttons/NewGameButton pos:500,-100 handler:ButtonArea goto:.NewGame
 @choice  button:Naninovel/Buttons/ExitButton pos:500,100 handler:ButtonArea goto:.Exit
 @stop
 # NewGame
 @hide MainBackground
-@stopBgm fade:1
-@set hasExaminedSymbol=false
-@set hasSpokenOnce=false
-@set hasSeenPubFlashback=false
-@set hasSpokenTwice=false
-@set hasSeenKitchenFlashback=false
+@stopBgm  fade:1
+@set Pub_hasExaminedSymbol=false
+@set Ira_hasSpokenOnce=false
+@set Pub_hasSeenPubFlashback=false
+@set Ira_hasSpokenTwice=false
+@set Kitchen_hasSeenKitchenFlashback=false
+@fadeOut
+@stopBgm posiblemuerte fade:1
 @goto GameIntroScript
 @stop
 # Exit
+@fadeOut
+@stopBgm posiblemuerte fade:1
 @hide MainBackground
-@stopBgm fade:1
 @title
+@loadScene TitleScene
 @stop

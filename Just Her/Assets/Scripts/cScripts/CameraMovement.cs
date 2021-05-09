@@ -13,9 +13,9 @@ public class CameraMovement : MonoBehaviour
     // Variables para el zoom
     public float objectFovValue = 25;
     float defaultFovValue;
-    public float zoom_InDuration;
+    public float zoom_InDuration = 1.5f;
     float zoom_InTime;
-    public float zoom_OutDuration;
+    public float zoom_OutDuration = 1.5f;
     float zoom_OutTime;
     // Bool para indicar el fin del zoom-in
     [HideInInspector] public bool hasZoom_InEnded;
@@ -53,6 +53,5 @@ public class CameraMovement : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         zoom_OutTime = 0;
-        DirectorScript.directorSingleton.EnableObjectInteraction();
     }
 }

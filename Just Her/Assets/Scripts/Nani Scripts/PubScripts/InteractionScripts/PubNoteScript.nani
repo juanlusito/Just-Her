@@ -1,19 +1,17 @@
-Arion: øQ-qu-quÈ hace Èsto aquÌ? øEs una broma?
-@choice "Inspeccionar" goto:.Inspeccionar
-@choice "Dejar" goto:.Dejar
-@stop
-# Inspeccionar
-ìTodo fue culpa tuyaî
-Arion: Esta notaÖ SÌÖ La recuerdo.
-Arion: øPero quÈ pinta en un lugar como Èste...?
-Arion: Padre, si es que te puedo llamar asÌ, lo siento...
-Arion: Y-yo no querÌa, eso ella lo sabe...
-*Arion aprieta su puÒo con fuerza*
-@hide Dialogue
-@stop
-# Dejar
-Arion: N-no puede ser real, ø°Èsto no es real, verdad!?
-Arion: ø°QUI…N Y C”MO HAN CONSEGUIDO …STO!?
-*Arion golpea la mesa y el estruendo invade la sala*
+Arion: ¬øY √©sto?
+Arion: Es como si mi cuerpo no respondiera ante m√≠
+‚ÄúTodo fue culpa tuya‚Äù
+Arion: Esta nota...
+@printer EllaPrinter
+@fadeOut
+@wait 1
+???: T√∫ no tuviste la culpa de aquello...
+???: Los accidentes no se predicen...
+@printer Dialogue
+@fadeIn
+@wait 1
+Arion: Otra vez‚Ä¶ ella‚Ä¶
+Arion: Es como si me hablara‚Ä¶
+Arion: No recuerdo ning√∫n accidente‚Ä¶ 
 @hide Dialogue
 @stop

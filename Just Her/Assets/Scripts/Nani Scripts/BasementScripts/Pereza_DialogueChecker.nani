@@ -1,0 +1,7 @@
+@if Basement_clickedObjects==6
+@goto Pereza_Dialogue1-Part1
+@stop
+@elseif Basement_clickedObjects!=6
+@stop
+@endif
+@stop

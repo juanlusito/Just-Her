@@ -1,0 +1,21 @@
+; Si aún no ha superado el nivel
+	???: Parece estar cerrada...
+	@hide Dialogue
+	@stop
+; Si ha visto la primera conversación
+	Arion: Parece que aún está cerrada
+	Arion: Pero... esto no es un juego. ¡La fuerzo y me voy!
+	@hide Dialogue
+	@wait 1
+	Arion: Di que sí Arion, pensando con lógica, vamos a ver...
+	@hide Dialogue
+	@goto Pereza_Dialogue2-Part1
+; Si ha visto la segunda conversación
+	Arion: Vale, eso ha sido algo extraño
+	Arion: Es como si hubiera tratado de... ¿retenerme?
+	Arion: No entiendo ese ímpetu suyo de que me quedara aquí, así de la nada...
+; Si ha superado el nivel
+	Arion: Hmm, creía que estaba cerrada.
+	Arion: Bueno, descubramos de qué va todo ésto
+	@hide Dialogue
+	@stop

@@ -8,6 +8,8 @@ public class DialogueScript : MonoBehaviour
     void Start()
     {
         dialogueTextScript = GetComponent<RevealableTextPrinterPanel>();
+        dialogueTextScript.onShow.AddListener(DirectorScript.directorSingleton.DisableObjectInteraction);
         dialogueTextScript.onHide.AddListener(DirectorScript.directorSingleton.StartZoomOut);
+        dialogueTextScript.onHide.AddListener(DirectorScript.directorSingleton.EnableObjectInteraction);
     }
 }

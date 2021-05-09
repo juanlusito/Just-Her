@@ -75,8 +75,8 @@ MonoBehaviour:
       EnableDepthPass: 1
       DepthAlphaCutoff: 0.5
       CustomShader: {fileID: 0}
-      RenderTexture: {fileID: 0}
-      CorrectRenderAspect: 1
+      RenderTexture: {fileID: 8400000, guid: 339a2eff18dad804a9dc6656a35fc979, type: 2}
+      CorrectRenderAspect: 0
       BakedLookDirection: 1
       DisplayName: Ira
       UseCharacterColor: 1
@@ -91,7 +91,7 @@ MonoBehaviour:
       HighlightEasing: 1
       MessageSound: 
       ClipMessageSound: 1
-      LinkedPrinter: 
+      LinkedPrinter: IraPrinter
       Poses: []
   AvatarLoader:
     PathPrefix: CharacterAvatars

@@ -1,0 +1,30 @@
+@printer PerezaPrinter
+Pereza:¡Eh, tú! ¿Qué crees que... haces?
+Arion: Como veo que nadie viene, que tú no ayudas y que no encuentro mucha información aquí, decidí simplemente forzar la puerta e irme...
+Pereza: Por lo menos eres sincero... ¿Por qué no te quedas un rato más aquí?
+Arion: (¿Cómo? Ahora de la nada quiere que me quede...)
+Arion: (Antes me dijo que no la molestara más... No me cuadra mucho)
+@choice "¿Por qué debería hacer eso?" goto:.BranchA
+@choice "Podría quedarme un poco, sólo un poco..." goto:.BranchB
+@stop
+# BranchA
+@char Pereza.Bostezando
+Pereza: Así... podría hablarte más... de tí
+Arion: Ahora sí quieres contestar mis preguntas
+Arion: No sé a qué estás jugando pero me fío un pelo de tí
+Pereza: Podríamos sentarnos un momento y empezar de cero... de cero...
+@choice "Está bien sólo por un momento" goto:Pereza_Dialogue2-Part2.BranchA-A
+@choice "Debo continuar como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+@stop
+# BranchB
+Pereza: Buen chico...
+Pereza: Ven, siéntate...
+Arion: (No ha ocurrido nada sospechoso pero... me encuentro raro... como sin energía...)
+Arion: Cla-claro... Sólo un momento...
+Pereza: ¿Te ocurre algo? Te noto cansado...
+Pereza: Será mejor que descanses un poco antes de seguir tu duro viaje...
+Las palabras resuenan con eco en la cabeza de Arion
+; Esta rama para al mismo sitio que la rama A
+@choice "Puede que tengas razón" goto:Pereza_Dialogue2-Part2.BranchA-A
+@choice "Debo continuar, sea como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+@stop

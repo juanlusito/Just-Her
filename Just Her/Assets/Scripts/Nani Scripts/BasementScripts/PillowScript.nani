@@ -1,0 +1,30 @@
+@if Basement_hasExaminedPillow==false
+	???: Este sof� parece realmente c�modo...
+	???: �Deber�a descansar un rato?
+@choice S� goto:.S�
+@choice No goto:.No
+@stop
+# S�
+	???: Bueno, no creo que por relajarme un momento ocurra algo
+@hide Dialogue
+@fadeOut
+@wait 1
+	5 minutos despu�s...
+@fadeIn
+@wait 1
+@hide Dialogue
+@set Basement_hasExaminedPillow=true
+@stop
+# No
+	???: No creo que sea buen momento para ello...
+@hide Dialogue
+@set Basement_hasExaminedPillow=true
+@set Basement_clickedObjects=Basement_clickedObjects+1
+@goto Pereza_DialogueChecker
+@stop
+@elseif Basement_hasExaminedPillow==true
+	???: Creo que debo seguir buscando, no hay tiempo que perder� 
+@hide Dialogue
+@stop
+@endif
+@stop

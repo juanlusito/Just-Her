@@ -1,4 +1,4 @@
-@back VictoryBackground
+@back VictoryBackground time:1
 @bgm ganar
 @wait 1.5
 @choice  button:Naninovel/Buttons/NewGameButton pos:-500,-300 handler:ButtonArea goto:.NewGame
@@ -6,16 +6,16 @@
 @stop
 # NewGame
 @hide MainBackground
-@stopBgm fade:1
-@set hasExaminedSymbol=false
-@set hasSpokenOnce=false
-@set hasSeenPubFlashback=false
-@set hasSpokenTwice=false
-@set hasSeenKitchenFlashback=false
+@stopBgm  fade:1
+@set Pub_hasExaminedSymbol=false
+@set Ira_hasSpokenOnce=false
+@set Pub_hasSeenPubFlashback=false
+@set Ira_hasSpokenTwice=false
+@set Kitchen_hasSeenKitchenFlashback=false
 @goto GameIntroScript
 @stop
 # Exit
 @hide MainBackground
-@stopBgm fade:1
+@stopBgm  fade:1
 @title
 @stop

@@ -106,7 +106,7 @@ MonoBehaviour:
   continueInputTriggers:
   - {fileID: 1560104929271160}
   authorNamePanel: {fileID: 6695179159936184171}
-  authorAvatarImage: {fileID: 4031540365962271738}
+  authorAvatarImage: {fileID: 0}
   inputIndicator: {fileID: 114522303404012452, guid: b9b3fefeea6c9f74ca0e1a2f9e4dfb13,
     type: 3}
   positionIndicatorOverText: 1
@@ -856,7 +856,6 @@ GameObject:
   - component: {fileID: 6879026029779014326}
   - component: {fileID: 1561658225156622132}
   - component: {fileID: 5226225841728290101}
-  - component: {fileID: 4031540365962271738}
   m_Layer: 5
   m_Name: AuthorImage
   m_TagString: Untagged
@@ -929,31 +928,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &4031540365962271738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7492923754611769787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfcbe7c02e77b974ebd628a12ef88d22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableInteraction: 0
-  visibleOnAwake: 1
-  controlOpacity: 1
-  fadeTime: 0.3
-  ignoreTimeScale: 1
-  focusObject: {fileID: 0}
-  focusMode: 0
-  onShow:
-    m_PersistentCalls:
-      m_Calls: []
-  onHide:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &9056834971122360257
 GameObject:
   m_ObjectHideFlags: 0

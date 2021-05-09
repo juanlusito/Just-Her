@@ -1,13 +1,19 @@
-@if hasSpokenTwice==false
+@if Ira_hasSpokenTwice==false
 	Arion: Está cerrada.
 @hide Dialogue
 @stop
-@elseif hasSpokenTwice==true
+@elseif Ira_hasSpokenTwice==true
 	Arion: ¿Hmm? Creía que estaba cerrada.
 	Arion: No sé si es muy seguro entrar… Aunque tampoco es que algo sea seguro aquí.
 	Arion: Mejor entraré y veré que hay dentro.
 @hide Dialogue
+@fadeOut
+@stopBgm  fade:1
+@wait 1
 @loadScene KitchenScene
+@bgm cocina loop:true
+@fadeIn
+@wait 1
 @stop
 @endif
 @stop

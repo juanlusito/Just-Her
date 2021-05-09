@@ -21,7 +21,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   InitializationScript: 
   TitleScript: MainMenuScript
-  StartGameScript: GameIntroScript
+  StartGameScript: Ira_StageIntroScript
   AutoAddScripts: 1
   HotReloadScripts: 1
   CountTotalCommands: 0

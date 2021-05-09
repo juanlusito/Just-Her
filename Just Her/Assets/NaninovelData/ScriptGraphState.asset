@@ -20,70 +20,70 @@ MonoBehaviour:
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue1-Part1
+  - ScriptName: Ira_Dialogue1-Part1
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue1-Part2
+  - ScriptName: Ira_Dialogue1-Part2
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue1-Part3
+  - ScriptName: Ira_Dialogue1-Part3
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue2-Part1
+  - ScriptName: Ira_Dialogue2-Part1
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue2-Part2
+  - ScriptName: Ira_Dialogue2-Part2
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue2-Part3
+  - ScriptName: Ira_Dialogue2-Part3
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue2-Part4
+  - ScriptName: Ira_Dialogue2-Part4
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue3-Part1
+  - ScriptName: Ira_Dialogue3-Part1
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue3-Part2
+  - ScriptName: Ira_Dialogue3-Part2
     Position:
       serializedVersion: 2
       x: 0
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: Dialogue3-Part3
+  - ScriptName: Ira_Dialogue3-Part3
     Position:
       serializedVersion: 2
       x: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: GameIntroScript
+  - ScriptName: Ira_StageIntroScript
     Position:
       serializedVersion: 2
       x: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
       y: 0
       width: NaN
       height: NaN
-  - ScriptName: AfterDialogue2
+  - ScriptName: Ira_AfterDialogue2
     Position:
       serializedVersion: 2
       x: 0
@@ -210,6 +210,97 @@ MonoBehaviour:
       width: NaN
       height: NaN
   - ScriptName: TestScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BinScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: PillowScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: SceneLoader
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: ComputerScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BasementToHall
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BasementPhotoScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue1-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue1-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue2-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue2-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue3-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_StageIntroScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_DialogueChecker
     Position:
       serializedVersion: 2
       x: 0

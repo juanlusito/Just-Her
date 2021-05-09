@@ -1,0 +1,28 @@
+# BranchA-A
+Pereza: ¿Cómo te encuentras, Arion?
+Arion: (No soy capaz de hablar... Apenas puedo abrir los ojos...)
+Arion: (Qué está ocurriendo...)
+Pereza: Vamos... relájate...
+Arion: (Espera...)
+Arion: (No... puedo... moverme...)
+Arion queda inconsciente y cae en un sueño infinito
+; GameOver
+@hide Pereza
+@printer Dialogue
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-B
+Pereza: Va a ser más difícil de lo que me temía...
+Pereza: Está bien... Te dejaré ir esta vez...
+Pereza: Pero... no vas a tener tanta suerte con la puerta...
+; ¿Fundido a negro?
+La vista de Arion se nubla y cae al suelo desorientado
+5 minutos después...
+; Se revela de nuevo el escenario
+Arion: Ah, mi cabeza...
+Arion: ¿Qué ha ocurrido?
+Arion: Parece que no me dejara salir por la puerta pero entonces...
+Arion: Ah... Debo encontrar más información
+@hide Dialogue
+@stop

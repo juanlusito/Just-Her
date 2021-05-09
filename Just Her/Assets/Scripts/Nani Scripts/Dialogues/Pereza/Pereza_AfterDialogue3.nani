@@ -1,0 +1,13 @@
+Arion: Todo ha... terminado
+Arion: Creo que había una puerta pero estaba cerrada...
+Arion: ¿Cómo se supone que salga de aquí?
+Arion: Necesito descansar un poco, estoy algo mareado
+@hide Dialogue
+@fadeOut
+@wait 1
+5 minutos después...
+@fadeIn
+@wait 1
+Arion: Bien, hora de salir de aquí
+@hide Dialogue
+@stop

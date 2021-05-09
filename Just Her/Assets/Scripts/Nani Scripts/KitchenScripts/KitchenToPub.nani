@@ -1,13 +1,17 @@
-@if hasSeenKitchenFlashback==false
-	Arion: ¿Qué? Pero si antes he abierto la puerta.
-	Arion: Esa chica... ¡me habrá encerrado!
-	Arion: Tendré que buscar una manera de abrir la puerta.
-	@hide Dialogue
-	@stop
-@elseif hasSeenKitchenFlashback==true
+@if Kitchen_hasSeenKitchenFlashback==false
+	Arion: ï¿½Quï¿½? Pero si antes he abierto la puerta.
+	Arion: Esa chica... ï¿½me habrï¿½ encerrado!
+	Arion: Tendrï¿½ que buscar una manera de abrir la puerta.
+@hide Dialogue
+@stop
+@elseif Kitchen_hasSeenKitchenFlashback==true
 	Arion: Es hora de aclarar las cosas...
-	@loadScene PubScene
-	@hide Dialogue
-	@stop
+@hide Dialogue
+@fadeOut
+@stopBgm cocina fade:1
+@loadScene PubScene
+@fadeIn
+@bgm salon loop:true fade:1
+@stop
 @endif
 @stop

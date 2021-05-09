@@ -13,13 +13,31 @@ MonoBehaviour:
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
   PredefinedVariables:
-  - name: hasExaminedSymbol
+  - name: Pub_hasExaminedSymbol
     value: false
-  - name: hasSpokenOnce
+  - name: Ira_hasSpokenOnce
     value: false
-  - name: hasSeenPubFlashback
+  - name: Ira_hasSpokenTwice
     value: false
-  - name: hasSpokenTwice
+  - name: Ira_hasSpoken3Times
     value: false
-  - name: hasSeenKitchenFlashback
+  - name: Pub_hasSeenPubFlashback
+    value: false
+  - name: Kitchen_hasSeenKitchenFlashback
+    value: false
+  - name: Basement_clickedObjects
+    value: 0
+  - name: Basement_hasExaminedBin
+    value: false
+  - name: Basement_hasExaminedPhoto
+    value: false
+  - name: Basement_hasExaminedComputer
+    value: false
+  - name: Basement_hasExaminedPillow
+    value: false
+  - name: Basement_hasExaminedWindow
+    value: false
+  - name: Pereza_hasSpokenOnce
+    value: false
+  - name: Pereza_hasSpokenTwice
     value: false

@@ -1,2 +1,7 @@
-@back TitleBackground
+@fadeOut
+@stopBgm  fade:1
+@wait 1
+@loadScene TitleScene
+@fadeIn
+@wait 
 @stop

@@ -198,7 +198,7 @@ MonoBehaviour:
   m_FlexibleWidth: 0
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!1 &1278212306553201763
+--- !u!1 &2297731877199301742
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,10 +206,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3974590922325854005}
-  - component: {fileID: 5550503469189573952}
-  - component: {fileID: 2769187192249420483}
-  - component: {fileID: 2967288105683202183}
+  - component: {fileID: 7265008909156334562}
+  - component: {fileID: 9141663526306932739}
+  - component: {fileID: 1330463173712803890}
+  - component: {fileID: 295396590192754258}
+  - component: {fileID: 2204493633371879119}
   m_Layer: 5
   m_Name: IraImage
   m_TagString: Untagged
@@ -217,13 +218,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3974590922325854005
+--- !u!224 &7265008909156334562
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278212306553201763}
+  m_GameObject: {fileID: 2297731877199301742}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
@@ -233,24 +234,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -819.12, y: -1080}
+  m_AnchoredPosition: {x: -818.60016, y: -1080}
   m_SizeDelta: {x: 2048, y: 2048}
   m_Pivot: {x: 0, y: 0}
---- !u!222 &5550503469189573952
+--- !u!222 &9141663526306932739
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278212306553201763}
+  m_GameObject: {fileID: 2297731877199301742}
   m_CullTransparentMesh: 0
---- !u!114 &2769187192249420483
+--- !u!114 &1330463173712803890
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278212306553201763}
+  m_GameObject: {fileID: 2297731877199301742}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
@@ -270,18 +271,46 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!225 &2967288105683202183
+--- !u!225 &295396590192754258
 CanvasGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278212306553201763}
+  m_GameObject: {fileID: 2297731877199301742}
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &2204493633371879119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297731877199301742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9410f317156115449a8ce4fa67f4aeb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actorType: 0
+  actorId: Ira
+  onRenderTextureRetrieved:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1330463173712803890}
+        m_MethodName: set_texture
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2407041107260943346
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +905,7 @@ GameObject:
   - component: {fileID: 4017233610360024284}
   - component: {fileID: 5372878787792407466}
   - component: {fileID: 6398224850967276115}
-  - component: {fileID: 8351522290488317902}
+  - component: {fileID: 7538600043466764891}
   m_Layer: 5
   m_Name: IraPrinter
   m_TagString: Untagged
@@ -895,7 +924,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 3974590922325854005}
+  - {fileID: 7265008909156334562}
   - {fileID: 2670962794897814977}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1032,7 +1061,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8351522290488317902
+--- !u!114 &7538600043466764891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

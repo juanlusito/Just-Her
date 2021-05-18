@@ -17,10 +17,8 @@ namespace Naninovel.Commands
         {
             var gameState = Engine.GetService<IStateManager>();
             var uiManager = Engine.GetService<IUIManager>();
-
             await gameState.ResetStateAsync();
             // Don't check for the cancellation token, as it's always cancelled after state reset.
-
             uiManager.GetUI<UI.ITitleUI>()?.Show();
         }
     }

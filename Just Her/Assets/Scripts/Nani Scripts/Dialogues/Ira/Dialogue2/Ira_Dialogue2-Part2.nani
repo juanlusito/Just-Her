@@ -3,8 +3,10 @@
 ???: Obvio que s� todo sobre t�
 Ira: Soy tu ira, tu frustraci�n... y no puedes arreglarlo todo tan f�cilmente
 Ira: Fue tu error y debes arreglarlo
+@printer Dialogue
 Arion: Supongamos que llevas razón
 Arion: ¿Cómo explicas entonces la intención del acto?
+@printer IraPrinter
 Ira: ¿Intención?
 @choice "Existe una palabra llamada intención, tiene significado y todo" goto:Ira_Dialogue2-Part3.BranchA-A-A
 @choice "Ella también pensó que la intención era buena, ¿recuerdas?" goto:Ira_Dialogue2-Part3.BranchA-A-B
@@ -18,7 +20,7 @@ Ira: S� todo sobre t�, s� lo que le hiciste a mam�...
 @choice "Yo jamás haría daño a mi madre..." goto:Ira_Dialogue2-Part3.BranchA-B-B
 @stop
 # BranchB-A
-@sfx risa volume:0.75
+@sfx risa volume:0.1
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: �S�! �Lo s� todo, peque�o pir�mano! Y pagar�s por ello...
 @choice "Lo sabr�s todo pero no entiendes nada. No todo es acierto y error. También hay intenciones y consecuencias..." goto:Ira_Dialogue2-Part3.BranchB-A-A

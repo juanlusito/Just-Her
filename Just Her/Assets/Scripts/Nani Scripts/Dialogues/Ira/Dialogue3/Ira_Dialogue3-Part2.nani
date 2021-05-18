@@ -10,28 +10,33 @@ Ira: �TE ODIO!
 @hide Ira
 @printer Dialogue
 @fadeOut
-@wait 1
+@stopBgm salon fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop
 # BranchB-B
+@printer Dialogue
 Arion: La nota... la nota que le� antes de llegar aqu�, �no la recuerdas? Todo est� ah�, toda la verdad, todo...
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
+@printer IraPrinter
 Ira: Conque s� recuerdas la nota...
 Ira: Parece que no eres tan par�sito como yo cre�a, al principio de tu estancia yo te odiaba.
 Ira: Puede que te siga odiando pero un poquito menos...
 Ira: Cu�ntame una �ltima cosa... �Por qu�?
 Ira: �Por qu� deber�a de darte mi voto de confianza de nuevo y dejarte ir?
+@printer Dialogue
 Arion: Por ella. 
 Arion: Porque la necesitamos, tanto t� como yo la necesitamos.
 Arion: Ella vio en nosotros lo que nunca nadie vio, al igual que mam�... 
 Arion: Porque creo que hay una peque�a luz al final del t�nel, a�n hay esperanza... 
 Arion: Podemos cambiar, juntos...
+@printer IraPrinter
 Ira: ¿Realmente crees eso?
 Ira: Creo... que voy entendiendo a Pereza
+@printer Dialogue
 Arion: Luchemos juntos, con espíritu
 @char Ira.Alegre pos:"59, 25, -5.4" time:1
+@printer IraPrinter
 Ira: Gracias.
 Ira: De verdad, gracias por todo...
 Ira: Por mucho que lo intentemos seguir�s siendo un peque�o in�til pero...

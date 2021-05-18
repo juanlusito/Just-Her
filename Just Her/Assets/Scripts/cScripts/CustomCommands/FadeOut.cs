@@ -9,7 +9,7 @@ public class FadeOut : Command
     public override UniTask ExecuteAsync(CancellationToken cancellationToken = default)
     {
         screenAnimator = GameObject.Find("BlackScreen").GetComponent<Animator>();
-        screenAnimator.SetTrigger("activateFadeOut");
+        screenAnimator.Play("FadeOut");
         return UniTask.CompletedTask;
     }
 }

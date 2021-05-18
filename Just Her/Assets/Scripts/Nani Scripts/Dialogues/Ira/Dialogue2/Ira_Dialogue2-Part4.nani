@@ -3,11 +3,11 @@
 @spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: No intentes distraerme, no evadas lo que le causaste a mam� y a padre...
 Ira: �Todo es por tu culpa! �Pagar�s por ello!
+@hide Ira time:1
 @printer Dialogue
 @fadeOut
-@wait 1
+@stopBgm salon fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop
 # BranchA-A-A-B
@@ -45,7 +45,7 @@ Arion: ¿Tan malas han sido las decisiones de mi vida?
 @stop
 # BranchA-B-A-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
-@sfx urusai volume:0.75
+@sfx urusai volume:0.1
 @spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Ca-c�llate! Pa-padre no opinaba as�...
 @hide Ira time:1
@@ -56,14 +56,14 @@ Arion: ¿Tan malas han sido las decisiones de mi vida?
 @stop
 # BranchA-B-B-A
 @char Ira.Default pos:"59, 25, -5.4" time:1
-Ira: �S�, pagar!
+Ira: �S�, vas a pagar!
 Ira: Padre opinaba lo mismo...
 Ira: �l lo hac�a por el bien de todos...
+@hide Ira time:1
 @printer Dialogue
 @fadeOut
-@wait 1
+@stopBgm salon fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop
 # BranchA-B-B-B
@@ -93,10 +93,9 @@ Arion: ¿Tan malas han sido las decisiones de mi vida?
 Ira: Pues comprende t� que debes pagar por lo hecho, eso es lo que padre quer�a...
 Arion: �C�mo? �E-espera!
 @printer Dialogue
+@stopBgm salon fade:1
 @fadeOut
-@wait 1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop
 # BranchB-A-B-B
@@ -111,17 +110,18 @@ Arion: Padre no ten�a raz�n...
 @stop
 # BranchB-B-A-A
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
-@sfx urusai volume:0.75
+@sfx urusai volume:0.1
 @spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Yo, yo! !Yo, yo y yo!
 Ira: S�lo piensas en t� y no en los dem�s, 
 Ira: �Ni en padre!
-Arion: �C�mo? �E-espera!
 @printer Dialogue
+Arion: �C�mo? �E-espera!
+@hide Ira time:1
+@hide Dialogue
 @fadeOut
-@wait 1
+@stopBgm salon fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop
 # BranchB-B-A-B
@@ -131,11 +131,12 @@ Ira: ��Qu�!? ��Vas en serio!?
 Ira: Padre.. Madre...
 Ira: Todo es tu culpa.
 Ira: Ellos lo saben...
-Arion: �C�mo? �E-espera!
 @printer Dialogue
+Arion: �C�mo? �E-espera!
+@hide Ira
+@hide DIalogue
 @fadeOut
-@wait 1
+@stopBgm salon fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop

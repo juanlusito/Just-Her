@@ -1,21 +1,45 @@
-; Si aún no ha superado el nivel
+@if Basement_hasExaminedDoor==false
+@disableInteraction
 	???: Parece estar cerrada...
-	@hide Dialogue
-	@stop
-; Si ha visto la primera conversación
-	Arion: Parece que aún está cerrada
-	Arion: Pero... esto no es un juego. ¡La fuerzo y me voy!
-	@hide Dialogue
-	@wait 1
-	Arion: Di que sí Arion, pensando con lógica, vamos a ver...
-	@hide Dialogue
-	@goto Pereza_Dialogue2-Part1
-; Si ha visto la segunda conversación
-	Arion: Vale, eso ha sido algo extraño
-	Arion: Es como si hubiera tratado de... ¿retenerme?
-	Arion: No entiendo ese ímpetu suyo de que me quedara aquí, así de la nada...
-; Si ha superado el nivel
-	Arion: Hmm, creía que estaba cerrada.
-	Arion: Bueno, descubramos de qué va todo ésto
-	@hide Dialogue
-	@stop
+@hide Dialogue
+@set Basement_hasExaminedDoor=true
+@set Basement_clickedObjects=Basement_clickedObjects-1
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedDoor==true&&Pereza_hasSpokenOnce==true
+@disableInteraction
+	Arion: Parece que aï¿½n estï¿½ cerrada
+	Arion: Pero... esto no es un juego. ï¿½La fuerzo y me voy!
+@wait 1
+	Arion: Di que sï¿½ Arion, pensando con lï¿½gica, vamos a ver...
+@hide Dialogue
+@goto Pereza_Dialogue2-Part1
+@elseif Basement_hasExaminedDoor==true&&Pereza_hasSpokenTwice==true
+@disableInteraction
+	Arion: Vale, eso ha sido algo extraï¿½o
+	Arion: Es como si hubiera tratado de... ï¿½retenerme?
+	Arion: No entiendo ese ï¿½mpetu suyo de que me quedara aquï¿½, asï¿½ de la nada...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedDoor==true&&Pereza_hasSpoken3Times==true
+@disableInteraction
+	Arion: Hmm, creï¿½a que estaba cerrada.
+	Arion: Bueno, descubramos de quï¿½ va todo ï¿½sto
+@hide Dialogue
+@fadeOut
+@stopBgm sotanocortado fade:1
+@loadScene HallScene
+@fadeIn
+@wait 1
+@bgm pasillocortado volume:0.75 loop:true
+@goto Hall_IntroScript
+@stop
+@else
+@disableInteraction
+	La puerta sigue cerrada a cal y canto
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

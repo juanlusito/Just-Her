@@ -3,23 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using Naninovel;
 using Naninovel.UI;
+using Naninovel.Commands;
 using System;
 using UnityEngine.SceneManagement;
 public class DirectorScript : MonoBehaviour
 {
+    static GameObject directorInstance;
     public static DirectorScript directorSingleton;
     public IScriptPlayer scriptPlayer;
+    IStateManager stateManager;
     [HideInInspector] public string scriptName;
     public GameObject[] interactiveObjectsArray;
     CameraMovement cameraScript;
-    void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+    // SaveManager saveManager;
+    BlackScreenScript blackScreenScript;
+    public Shader highlightShader;
+    public Shader defaultShader;
     void Start()
     {
-        directorSingleton = this;
-        SceneManager.activeSceneChanged += SearchScripts;
+        DontDestroyOnLoad(gameObject);
+        if (directorInstance == null)
+        {
+            blackScreenScript = GameObject.Find("BlackScreenCanvas").GetComponentInChildren<BlackScreenScript>();
+            SceneManager.activeSceneChanged += SearchScripts;
+            stateManager = Engine.GetService<IStateManager>();
+            /*saveManager = gameObject.GetComponent<SaveManager>();
+            stateManager.AddOnGameSerializeTask(saveManager.SerializeState);
+            stateManager.AddOnGameDeserializeTask(saveManager.DeserializeState);*/
+            directorSingleton = this;
+            directorInstance = gameObject;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     void Update()
     {
@@ -40,6 +57,8 @@ public class DirectorScript : MonoBehaviour
         }
         interactiveObjectsArray = GameObject.FindGameObjectsWithTag("InteractiveObject");
         scriptPlayer = Engine.GetService<IScriptPlayer>();
+        stateManager = Engine.GetService<IStateManager>();
+        blackScreenScript.blackScreenCanvas.worldCamera = GameObject.Find("NewUICamera(Clone)").GetComponent<Camera>();
     }
     public void EnableObjectInteraction()
     {

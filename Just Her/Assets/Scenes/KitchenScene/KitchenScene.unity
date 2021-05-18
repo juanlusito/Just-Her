@@ -134,9 +134,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: DrawersScript
+  scriptName: Kitchen_DrawersScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  parentMaterials: []
+  childrenMaterials: []
 --- !u!65 &122491288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -146,7 +149,7 @@ BoxCollider:
   m_GameObject: {fileID: 7289971651840743771}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 32.084362, y: 0, z: 25.459366}
   m_Center: {x: 0.23175669, y: -22.541288, z: -0.75649697}
@@ -718,9 +721,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: GloveScript
+  scriptName: Kitchen_GloveScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  parentMaterials: []
+  childrenMaterials: []
 --- !u!65 &619112960
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -730,7 +736,7 @@ BoxCollider:
   m_GameObject: {fileID: 6382772958691879790}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.7855474, y: 4.0530257, z: 0.8179203}
   m_Center: {x: -0.0000019073486, y: 0.0000001192093, z: -0.000008061528}
@@ -1225,6 +1231,9 @@ MonoBehaviour:
   scriptName: KitchenToPub
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  parentMaterials: []
+  childrenMaterials: []
 --- !u!65 &640577924
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1234,7 +1243,7 @@ BoxCollider:
   m_GameObject: {fileID: 640577922}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 5.4258304, y: 0.85414726, z: 12.821575}
   m_Center: {x: 0.000001549721, y: -0.18927494, z: -0.20068936}
@@ -2119,7 +2128,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pressedObject: {fileID: 0}
   rotationSpeed: 5
-  objectFovValue: 25
   zoom_InDuration: 1.5
   zoom_OutDuration: 1.5
   hasZoom_InEnded: 0
@@ -2749,9 +2757,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: BreadScript
+  scriptName: Kitchen_BreadScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  parentMaterials: []
+  childrenMaterials: []
 --- !u!64 &1404173011
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2761,7 +2772,7 @@ MeshCollider:
   m_GameObject: {fileID: 2386714076953728958}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -3084,9 +3095,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: FlowerScript
+  scriptName: Kitchen_FlowerScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  parentMaterials: []
+  childrenMaterials: []
 --- !u!65 &1902970030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3096,7 +3110,7 @@ BoxCollider:
   m_GameObject: {fileID: 5338309508689975262}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 6.9221616, y: 3.2490494, z: 6.835065}
   m_Center: {x: -0.13232434, y: 0.2910405, z: 0.14813812}
@@ -3354,6 +3368,88 @@ MonoBehaviour:
   customCookieDistanceFalloffPower: 2
   customAngularFalloffThreshold: 0.8
   customAngularFalloffPower: 2
+--- !u!1 &1935518650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935518651}
+  - component: {fileID: 1935518653}
+  - component: {fileID: 1935518652}
+  m_Layer: 0
+  m_Name: Aramrio001 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1935518651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935518650}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -325.8, y: 17.570604, z: 20.840975}
+  m_LocalScale: {x: 3.3580391, y: 1.62204, z: 1.029999}
+  m_Children: []
+  m_Father: {fileID: 543450651838931776}
+  m_RootOrder: 51
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1935518652
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935518650}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ac2542336ef2add46a7767203f7cb876, type: 2}
+  - {fileID: 2100000, guid: c2b35277aa37dd54f9076b92008eb141, type: 2}
+  - {fileID: 2100000, guid: 9967bf96f0396054aa650b7e0e38641f, type: 2}
+  - {fileID: 2100000, guid: 4e5bd7204ef6bc0498fc84faca4fc779, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1935518653
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935518650}
+  m_Mesh: {fileID: -5951502359319590646, guid: b3ae6f553959be9488ed37e6a88a77f5, type: 3}
 --- !u!1 &1936353310
 GameObject:
   m_ObjectHideFlags: 1
@@ -3409,9 +3505,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: KitchenNoteScript
+  scriptName: Kitchen_NoteScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  parentMaterials: []
+  childrenMaterials: []
 --- !u!65 &1967237171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3421,7 +3520,7 @@ BoxCollider:
   m_GameObject: {fileID: 7742780737316157223}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.6493051, y: 1.0070968, z: 0.09614001}
   m_Center: {x: -0.0000019073486, y: -0.0000038146973, z: 0.0576284}
@@ -4539,6 +4638,7 @@ Transform:
   - {fileID: 1055488378}
   - {fileID: 981930379}
   - {fileID: 704383697}
+  - {fileID: 1935518651}
   m_Father: {fileID: 942484775}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

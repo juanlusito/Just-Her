@@ -15,8 +15,15 @@ MonoBehaviour:
   m_GroupName: Naninovel
   m_Data:
     m_SerializedData: []
-  m_GUID: 182a652d3626b1646bfee1e8b4ca0eae
+  m_GUID: 239efcd634e28c846b3afbde5f715252
   m_SerializeEntries:
+  - m_GUID: 00c889ac9dd95bd49a061ff2826c5576
+    m_Address: Naninovel/Characters/Ira/Enfadada
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 0126b92e4ff0f564aaa7a38eae3ef6e7
     m_Address: Naninovel/TextPrinters/Chat
     m_ReadOnly: 0
@@ -31,8 +38,36 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 07281aa931870d843a082fb737843538
+    m_Address: Naninovel/Scripts/SaveScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0cd1c3647856bb84493d209f908948d3
+    m_Address: Naninovel/Characters/Pereza/Bostezando
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0d0fe1e4c10858841978b64c7a0b6a32
+    m_Address: Naninovel/Audio/queja
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0f6abc5808c3c4d409989859d4487f89
+    m_Address: Naninovel/Characters/Ira/Pensativa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 0f7bb9bfa162d614688d8a293050c361
-    m_Address: Naninovel/Scripts/DrawersScript
+    m_Address: Naninovel/Scripts/Kitchen_DrawersScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -40,6 +75,20 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1224d69e1592d624cbde93d0f7383d91
     m_Address: Naninovel/Spawn/ShakeCharacter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 127f027e9f65c2c46bd72e5aa3de1877
+    m_Address: Naninovel/Scripts/Hall_LockScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 18359a9e868011e42a7ebae859cee866
+    m_Address: Naninovel/Audio/introperfe
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -61,6 +110,13 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 1c5b86cf3cfbb1f44ae5641699077da4
     m_Address: Naninovel/Spawn/ShakeCamera
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1cb2ce7b024cf4947ab23e4e83b9f292
+    m_Address: Naninovel/Audio/ganar
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -95,7 +151,21 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 2a72a86de012d0540811ad9e1694d49c
-    m_Address: Naninovel/Scripts/KitchenNoteScript
+    m_Address: Naninovel/Scripts/Kitchen_NoteScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2bc18e41f740531428a7349b6d42d800
+    m_Address: Naninovel/Audio/baka mejorado
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2fe30c9010411dd43bb5b8912a071eaf
+    m_Address: Naninovel/Audio/sotanocortado
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -108,15 +178,43 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 41c753844707b3246935acad1126dce9
-    m_Address: Naninovel/Scripts/LampScript
+  - m_GUID: 3fa2597034e1baa4cb7357ac5fe92b8a
+    m_Address: Naninovel/Characters/Ira/Alegre
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 4a02218ade24c304090e932aed4446ad
-    m_Address: Naninovel/Backgrounds/MainBackground/GameOverBackground
+  - m_GUID: 444f8c7c3d39c45469fa46ac64643d9f
+    m_Address: Naninovel/Characters/Pereza/Pensativa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 448d1af3030e52848af42a68418b936f
+    m_Address: Naninovel/Scripts/Basement_SymbolScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 45841c1ab81845849b0f17d0573a3268
+    m_Address: Naninovel/Characters/Pereza/Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 476c82db8e9ad4a44b37c98079d477c9
+    m_Address: Naninovel/Scripts/PubToHall
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4c6fdf2d0e9546d4ebc17e23063db3e8
+    m_Address: Naninovel/Audio/urusai
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -131,6 +229,13 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4fa6d62f894ae6e4698bfa8af59e7942
     m_Address: Naninovel/ChoiceHandlers/ButtonArea
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5075007948ad0ac41a716ce93d778a38
+    m_Address: Naninovel/Audio/sonido queja
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -164,22 +269,22 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 5a85747cd4b4be64cb6f30160c9329ac
-    m_Address: Naninovel/Backgrounds/MainBackground/VictoryBackground
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Naninovel
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 5df52bd24482e5b4d8743018656b7a2a
-    m_Address: Naninovel/Scripts/MainMenuScript
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Naninovel
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 622cd6ef04a23054284ea003c2dd0941
-    m_Address: Naninovel/Scripts/FlowerScript
+    m_Address: Naninovel/Scripts/Kitchen_FlowerScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 64de42ab54241e64eadc3d6468652e7a
+    m_Address: Naninovel/Audio/bakk
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 65c37f59e9b266f468dd5381fdc03fc3
+    m_Address: Naninovel/UI/SettingsUI
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -187,6 +292,20 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 671ceb4f549ddf046913d7debf113469
     m_Address: Naninovel/UI/ExternalScriptsUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6aeedfbea54c9c344b8fe3436b0e4ceb
+    m_Address: Naninovel/Audio/salon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6fe97519dc1800e47a9d476be6dd6894
+    m_Address: Naninovel/Audio/pasillocortado
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -227,6 +346,13 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 7d2292ab72002e4459ce191f4b8df4ec
+    m_Address: Naninovel/Backgrounds/MainBackground/VictoryBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 7eeeefab61c64ca4a97736d630841a7c
     m_Address: Naninovel/Backgrounds/MainBackground/BackgroundFiller
     m_ReadOnly: 0
@@ -234,22 +360,8 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 7f9d57ab0b0d88546b088cfaef17284d
-    m_Address: Naninovel/Scripts/PubToKitchen
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Naninovel
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 897f02e488d68d6458b84d2a78df9a5b
-    m_Address: Naninovel/Scripts/GameOverScript
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Naninovel
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 8b1f3f7181fd5534bbe98db07edb7d7a
-    m_Address: Naninovel/Scripts/GameIntroScript
+  - m_GUID: 84979ae1c42fb5a4f9a2c7da5a682052
+    m_Address: Naninovel/Audio/interrogativo
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -262,8 +374,29 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 939d376dbb433c64e9de4b290b40328f
-    m_Address: Naninovel/UI/SettingsUI
+  - m_GUID: 9214c17f8516a844fbe4f568c0f7ef20
+    m_Address: Naninovel/Audio/risa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 92ccc4ffa5e47274f92edcac03f9b2b3
+    m_Address: Naninovel/Scripts/Hall_IraDoor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9594ce67af4a0bb4dacab56e6bdd4170
+    m_Address: Naninovel/Audio/shine enfado
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 992a301bbe8a6a446956a55dc1ece30c
+    m_Address: Naninovel/Characters/Pereza/Silueta
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -283,6 +416,13 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: a1fac2a43963ec049aa932a70fb0d1af
+    m_Address: Naninovel/Backgrounds/MainBackground/GameOverBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: a2aaa417785eeca409e78c404f333ee5
     m_Address: Naninovel/TextPrinters/TMProFullscreen
     m_ReadOnly: 0
@@ -297,8 +437,8 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: a7d48827294c9b64c8bb59e9930a913a
-    m_Address: Naninovel/Scripts/SymbolScript
+  - m_GUID: a7f35f4a541f72e428a3d5fd26996a99
+    m_Address: Naninovel/Audio/suspira
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -312,28 +452,28 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: acd5f71f3b273934da23eee3e283fd77
-    m_Address: Naninovel/Scripts/GloveScript
+    m_Address: Naninovel/Scripts/Kitchen_GloveScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: b1c52c10de95a3b499a410b67fe6aaa7
-    m_Address: Naninovel/Scripts/PubNoteScript
+  - m_GUID: ae954fbf9eaf52044976a19dab551266
+    m_Address: Naninovel/Scripts/Hall_PerezaDoor
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: b3df78ab9d8a94b41887be1c907e63a9
-    m_Address: Naninovel/Scripts/VictoryScript
+  - m_GUID: af7da0134db62b441a7523350d91843e
+    m_Address: Naninovel/Audio/cocina
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: b474bbb2a5305334fbc046a5e744959b
-    m_Address: Naninovel/Scripts/BottleScript
+  - m_GUID: b2df5f0c456e3514eabde707b33188e4
+    m_Address: Naninovel/Scripts/Hall_IntroScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -361,7 +501,28 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: bf035aa2ae2ced14baea9f199564b417
-    m_Address: Naninovel/Scripts/BreadScript
+    m_Address: Naninovel/Scripts/Kitchen_BreadScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bf0e79c7a6503d44eaaa74d4f3dd826b
+    m_Address: Naninovel/TextPrinters/PerezaPrinter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c12ad3d6c7dff7242b3eb7d6aafc4d0f
+    m_Address: Naninovel/Audio/sonido interrogativo 4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c3b53aca6006b4c468f03a2630e725d5
+    m_Address: Naninovel/TextPrinters/EllaPrinter
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -381,6 +542,34 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: ced48b7a483353f4086720189c1df87f
+    m_Address: Naninovel/Scripts/Save_LoadTest
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d2ff1d82745ab3e4ab3d9499de208e43
+    m_Address: Naninovel/TextPrinters/IraPrinter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: dc9980d0a78a5bd47b09e3d1faf7b44a
+    m_Address: Naninovel/Characters/Ira/Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: df8ffeec809354a48bf7a57f24ee5849
+    m_Address: Naninovel/Scripts/TestScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: e3b234b4273b7f64ab3f1d9fe425ed23
     m_Address: Naninovel/UI/SceneTransitionUI
     m_ReadOnly: 0
@@ -388,8 +577,22 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: ea076cabf19d2e9438ff19f89a67e04c
-    m_Address: Naninovel/Scripts/PhotoScript
+  - m_GUID: e3b8649c038476448afcfa31dc7120af
+    m_Address: Naninovel/Characters/Ira/Silueta
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e4701a8eebd894b4da02fb31bf1fb096
+    m_Address: Naninovel/Audio/posiblemuerte
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e90f5fae7b8745640a5402a57680fb69
+    m_Address: Naninovel/Audio/kuso
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -402,8 +605,8 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: f15062485cc2722478da9805ab1d37fb
-    m_Address: Naninovel/Scripts/ChandelierScript
+  - m_GUID: f28472bb572fb064182ac9551fae9f66
+    m_Address: Naninovel/Characters/Pereza/Avergonzada
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel

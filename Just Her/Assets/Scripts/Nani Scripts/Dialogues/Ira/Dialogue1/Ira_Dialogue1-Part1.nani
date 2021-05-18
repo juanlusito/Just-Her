@@ -1,5 +1,5 @@
 @printer IraPrinter
-@sfx risa volume:0.75
+@sfx risa volume:0.1
 ???: Vaya, vaya...
 @char Ira.Silueta pos:"59, 25, -5.4" time:1
 ???: Mira a qui�n tenemos aqu�...

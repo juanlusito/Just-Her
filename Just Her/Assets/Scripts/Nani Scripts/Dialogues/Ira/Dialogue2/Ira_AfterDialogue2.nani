@@ -9,4 +9,5 @@ Arion: A�n estoy un poco exhausto de todo �sto...
 @hide Dialogue
 @set Ira_hasSpokenOnce=false
 @set Ira_hasSpokenTwice=true
+@enableInteraction
 @stop

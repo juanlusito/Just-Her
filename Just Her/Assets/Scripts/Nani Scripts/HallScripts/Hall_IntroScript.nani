@@ -1,0 +1,6 @@
+Arion: Ésto no parece mi casa ni mucho menos
+Arion: ¿Acaso no ha acabado aún todo ésto?
+Arion: Tiene que ser una broma...
+@hide Dialogue
+@enableInteraction
+@stop

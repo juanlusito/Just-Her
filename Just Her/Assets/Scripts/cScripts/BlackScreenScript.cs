@@ -4,7 +4,7 @@ using UnityEngine;
 public class BlackScreenScript : MonoBehaviour
 {
     static GameObject screenInstance;
-    Canvas blackScreenCanvas;
+    public Canvas blackScreenCanvas;
     void Start()
     {
         DontDestroyOnLoad(gameObject);
@@ -12,7 +12,10 @@ public class BlackScreenScript : MonoBehaviour
         {
             screenInstance = gameObject;
             blackScreenCanvas = gameObject.GetComponent<Canvas>();
-            blackScreenCanvas.worldCamera = GameObject.Find("NewUICamera(Clone)").GetComponent<Camera>();
+            if (GameObject.Find("NewUICamera(Clone)") == true)
+            {
+                blackScreenCanvas.worldCamera = GameObject.Find("NewUICamera(Clone)").GetComponent<Camera>();
+            }
         }
         else
         {

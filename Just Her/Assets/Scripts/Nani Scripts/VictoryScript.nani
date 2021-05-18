@@ -1,21 +1,39 @@
-@back VictoryBackground time:1
-@bgm ganar
+@loadScene VictoryScene
+@back VictoryBackground pos:"55, 55" scale:0.8
+@fadeIn
+@wait 1
+@bgm ganar volume:0.75
 @wait 1.5
 @choice  button:Naninovel/Buttons/NewGameButton pos:-500,-300 handler:ButtonArea goto:.NewGame
-@choice  button:Naninovel/Buttons/ExitButton pos:500,300 handler:ButtonArea goto:.Exit
+@choice  button:Naninovel/Buttons/ExitButton pos:-500,-150 handler:ButtonArea goto:.Exit
 @stop
 # NewGame
 @hide MainBackground
 @stopBgm  fade:1
+; Nivel de pereza
+@set Basement_clickedObjects=6
+@set Basement_hasExaminedDoor=false
+@set Basement_hasExaminedBin=false
+@set Basement_hasExaminedPhotoOnce=false
+@set Basement_hasExaminedPhotoTwice=false
+@set Basement_hasExaminedSymbol=false
+@set Basement_hasExaminedComputer=false
+@set Basement_hasExaminedPillow=false
+@set Basement_hasExaminedWindow=false
+@set Pereza_hasSpokenOnce=false
+@set Pereza_hasSpokenTwice=false
+@set Pereza_hasSpoken3Times=false
+; Nivel de Ira
 @set Pub_hasExaminedSymbol=false
-@set Ira_hasSpokenOnce=false
 @set Pub_hasSeenPubFlashback=false
-@set Ira_hasSpokenTwice=false
 @set Kitchen_hasSeenKitchenFlashback=false
-@goto GameIntroScript
+@set Ira_hasSpokenOnce=false
+@set Ira_hasSpokenTwice=false
+@set Ira_hasSpoken3Times=false
+@fadeOut
+@stopBgm ganar fade:1
+@goto Pereza_StageIntroScript
 @stop
 # Exit
-@hide MainBackground
-@stopBgm  fade:1
 @title
 @stop

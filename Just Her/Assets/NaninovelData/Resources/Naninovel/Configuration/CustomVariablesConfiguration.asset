@@ -26,10 +26,16 @@ MonoBehaviour:
   - name: Kitchen_hasSeenKitchenFlashback
     value: false
   - name: Basement_clickedObjects
-    value: 0
+    value: 6
+  - name: Basement_hasExaminedDoor
+    value: false
   - name: Basement_hasExaminedBin
     value: false
-  - name: Basement_hasExaminedPhoto
+  - name: Basement_hasExaminedPhotoOnce
+    value: false
+  - name: Basement_hasExaminedPhotoTwice
+    value: false
+  - name: Basement_hasExaminedSymbol
     value: false
   - name: Basement_hasExaminedComputer
     value: false
@@ -40,4 +46,8 @@ MonoBehaviour:
   - name: Pereza_hasSpokenOnce
     value: false
   - name: Pereza_hasSpokenTwice
+    value: false
+  - name: Pereza_hasSpoken3Times
+    value: false
+  - name: Lujuria_hasSpokenOnce
     value: false

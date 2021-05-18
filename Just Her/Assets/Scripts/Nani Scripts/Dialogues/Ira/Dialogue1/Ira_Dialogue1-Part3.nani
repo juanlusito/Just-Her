@@ -7,9 +7,10 @@
 Arion: �Salir de aqu�? �Qu� este sitio exactamente?
 Arion: Todo es demasiado extra�o...
 Arion: Creo que ella puede ayudarme
+@hide Dialogue
 @set Ira_hasSpokenOnce=true
 @set Pub_hasExaminedSymbol=true
-@hide Dialogue
+@enableInteraction
 @stop
 # BranchA-B-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
@@ -24,9 +25,8 @@ Arion: Pe-pero espera, �a�n podemos hablar!
 @printer Dialogue
 ; Game Over
 @fadeOut
-@stopBgm fade:1
+@stopBgm  fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop
 # BranchB-A-A
@@ -39,8 +39,10 @@ Arion: Pe-pero espera, �a�n podemos hablar!
 @printer Dialogue
 Arion: Necesito aclarar todo ésto, encontrar más información
 Arion: Quizás ella pueda ayudarme...
+@hide Dialogue
 @set Ira_hasSpokenOnce=true
 @set Pub_hasExaminedSymbol=true
+@enableInteraction
 @stop
 # BranchB-A-B
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
@@ -52,8 +54,7 @@ Arion: Quizás ella pueda ayudarme...
 @printer Dialogue
 ; Game Over
 @fadeOut
-@stopBgm fade:1
+@stopBgm  fade:1
 @loadScene FillerScene
-@fadeIn
 @goto GameOverScript
 @stop

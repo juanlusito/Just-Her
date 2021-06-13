@@ -20,7 +20,6 @@ namespace Naninovel.FX
             var go = GameObject.Find(id);
             return ObjectUtils.IsValid(go) ? go.transform : null;
         }
-
         protected override async UniTask ShakeSequenceAsync (CancellationToken cancellationToken)
         {
             if (!preventPositiveYOffset)

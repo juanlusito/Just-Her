@@ -1,6 +1,6 @@
 Arion: Este lugar... me suena de algo
 @loadScene PubScene
-@fadeIn
+@fadeIn objectName:BlackScreen
 @wait 1
 @bgm salon loop:true
 Arion: No comprendo nada de lo que pasa

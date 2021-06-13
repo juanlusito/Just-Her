@@ -153,7 +153,7 @@ Material:
     - _UseSpecular: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.35599858, g: 0.6037736, b: 0.5226836, a: 1}
+    - _BaseColor: {r: 0, g: 0.6886792, b: 0.45911953, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HColor: {r: 0.3464311, g: 0.4245283, b: 0.39942563, a: 1}

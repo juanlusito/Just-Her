@@ -394,6 +394,7 @@ GameObject:
   - component: {fileID: 6306036015961478118}
   - component: {fileID: 6306036015961478117}
   - component: {fileID: 6306036015961478116}
+  - component: {fileID: 5658758696289524614}
   m_Layer: 5
   m_Name: NewConfirmationUI
   m_TagString: Untagged
@@ -533,6 +534,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &5658758696289524614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6306036015961478139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd5f4c12ddbca44885e3f475245a468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6306036017273270223
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +638,7 @@ GameObject:
   - component: {fileID: 3171756878192794475}
   - component: {fileID: 5582502469759141957}
   - component: {fileID: 1084794563696203716}
+  - component: {fileID: 723609601216756126}
   m_Layer: 5
   m_Name: ConfirmButton
   m_TagString: Untagged
@@ -731,7 +745,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3171756878192794475}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 723609601216756126}
+        m_MethodName: PlayScript
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   labelText: {fileID: 2883175829720403217}
   labelColors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -766,6 +791,20 @@ MonoBehaviour:
   onHide:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &723609601216756126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6617187980297251242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576d5a06bc994104ea9231af52a17dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonScript: {fileID: -5555909049971809409, guid: 6b2531a8180f02149abab0431e937b6f,
+    type: 3}
 --- !u!1 &7326192123093840477
 GameObject:
   m_ObjectHideFlags: 0

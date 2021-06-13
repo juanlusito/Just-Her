@@ -1,6 +1,0 @@
-
-@loadScene TestScene
-Ésto es una prueba del sistema de guardado
-Cambia algunas variables y clica en el cubo para guardar la partida
-@hide Dialogue
-@stop

@@ -1,5 +1,6 @@
-@loadScene NewScene
-@char Ira
-Sample text
-@hide
+@saveSceneInfo
+@save
+Se ha guardado la partida
+@hide Dialogue
+@enableInteraction
 @stop

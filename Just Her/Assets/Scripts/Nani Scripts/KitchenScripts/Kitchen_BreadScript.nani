@@ -6,11 +6,11 @@ Arion: No se cu�nto tiempo lleva aqu� pero tienen buena pinta.
 @stop
 # Comer
 @hide Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @wait 2
 Arion: Tremendo. Ya solo falta un vasito de agua.
 @hide Dialogue
-@fadeIn
+@fadeIn objectName:BlackScreen
 @enableInteraction
 @stop
 # Dejar

@@ -11,16 +11,16 @@
 ; @choice "Esa voz... Tú no eres Pereza ¿Quién ha dicho eso?" goto:.BranchA
 
 # af899e2c
-; @choice "No decir nada" goto:.BranchB
+; @choice "No decir nada." goto:.BranchB
 
 # 8ba5526
 ; ???: ¿Qué ocurre, pequeño parásito? ¿No te sientes bien sin Pereza aquí?
 
 # 823e26bf
-; ???: Yo soy la que manda aquí, recuérdalo
+; ???: Yo soy la que manda aquí, recuérdalo.
 
 # fb85492b
-; ???: Quizá deberíamos hacerte lo mismo que le hicimos a Mamá 
+; ???: Quizá deberíamos hacerte lo mismo que le hicimos a Mamá.
 
 # 67e11746
 ; ???: ¡Sí, será divertido!
@@ -34,10 +34,10 @@
 
 # edcbea1f
 ; ???: Veo que el gato te comi� la lengua, como aquella vez, cuando todo era fuego. 
-
+???: Veo que el gato te comió la lengua, como aquella vez, cuando todo era fuego. 
 # bd441997
-; ???: �Fant�stico! �S�! Eso fue incre�ble, �no crees?
-???: ¡Fantástico! !Sí! Eso fue increíble, ¿no crees?
+; ???: �Fant�stico! �S�! Eso fue incre�ble, �No crees?
+???: ¡Fantástico! !Sí! Eso fue increíble, ¿No crees?
 
 # abfc6719
 ; @choice "�A qu� te refieres?" goto:Ira_Dialogue1-Part2.BranchB-A

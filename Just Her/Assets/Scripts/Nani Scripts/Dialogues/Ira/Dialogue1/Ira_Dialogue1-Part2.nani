@@ -1,5 +1,5 @@
 # BranchA-A
-@sfx queja volume:0.1
+@sfx Ira.Queja volume:0.1
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: Tienes agallas... pero yo no soy tan buena como Pereza...
 @printer Dialogue
@@ -33,7 +33,7 @@ Arion: Puede que ella tenga una respuesta a ésto
 @choice "Yo no hice nada... No recuerdo nada de ello..." goto:Ira_Dialogue1-Part3.BranchB-A-B
 @stop
 # BranchB-B
-@sfx risa volume:0.1
+@sfx Ira.Risa volume:0.1
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: Qué pena, debería refrescarte la memoria... 
 ???: O mejor no, sería muy sencillo así

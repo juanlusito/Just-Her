@@ -5,6 +5,7 @@ Chica: No soy un koala. Soy tu pecado capital, Pereza
 @printer Dialogue
 Arion: Ya, bueno...
 Arion: Espera, �c�mo?
+@sfx Pereza.Pregunta
 @char Pereza.Pensativa time:1
 @printer PerezaPrinter
 Pereza: Cre�a... que ya lo supon�as...
@@ -13,6 +14,7 @@ Arion: (�Por eso trataba de retenerme aqu�?)
 Arion: (Supongo que ya nada de �sto tiene sentido, debo estar alerta ante todo)
 Arion: No entiendo tu manera de actuar, expl�came qu� ocurre aqu�
 @printer PerezaPrinter
+@sfx Pereza.Suspiro
 Pereza: Qu� aburrido si te lo cuento yo...
 Pereza: Deber�as descubrirlo t� mismo...
 @char Pereza.Bostezando time:1
@@ -31,6 +33,7 @@ Pereza: No puedo decir m�s
 Arion: �Malas decisiones? 
 Arion: Pero no recuerdo nada... �Qu� es lo que debo hacer?
 @printer PerezaPrinter
+@sfx Pereza.Hayaku
 Pereza: Juega con lo que tienes...
 Pereza: �Por qu� deber�a dejarte ir? Supongo que soy demasiado... emp�tica
 Pereza: Adem�s, estoy aburr�da de ti
@@ -46,6 +49,7 @@ Pereza: Es complicado y cansado de explicar...
 Pereza: Simplemente... has cometido muchas malas decisiones
 @printer Dialogue
 Arion: No comprendo, �qu� es lo que quieres de m� entonces?
+@sfx Pereza.Hayaku
 @char Pereza.Default time:1
 @printer PerezaPrinter
 Pereza: En verdad preferir�a descansar en vez de aguantar tus est�pidas preguntas...

@@ -13,13 +13,19 @@ MonoBehaviour:
   m_Name: CustomVariablesConfiguration
   m_EditorClassIdentifier: 
   PredefinedVariables:
-  - name: Pub_hasExaminedSymbol
+  - name: savedScene
+    value: false
+  - name: savedBGM
     value: false
   - name: Ira_hasSpokenOnce
     value: false
   - name: Ira_hasSpokenTwice
     value: false
   - name: Ira_hasSpoken3Times
+    value: false
+  - name: Hall_hasEnteredIraDoor
+    value: false
+  - name: Pub_hasExaminedSymbol
     value: false
   - name: Pub_hasSeenPubFlashback
     value: false
@@ -35,6 +41,8 @@ MonoBehaviour:
     value: false
   - name: Basement_hasExaminedPhotoTwice
     value: false
+  - name: Basement_hasExaminedPhoto3Times
+    value: false
   - name: Basement_hasExaminedSymbol
     value: false
   - name: Basement_hasExaminedComputer
@@ -48,6 +56,20 @@ MonoBehaviour:
   - name: Pereza_hasSpokenTwice
     value: false
   - name: Pereza_hasSpoken3Times
+    value: false
+  - name: LoveRoom_hasExaminedShirt
+    value: false
+  - name: LoveRoom_hasExaminedHandcuffs
+    value: false
+  - name: LoveRoom_hasExaminedLongChair
+    value: false
+  - name: LoveRoom_hasEnteredBath
+    value: false
+  - name: Bath_hasExaminedClothes
+    value: false
+  - name: Bath_hasTakenPendant
+    value: false
+  - name: Bath_hasExaminedJacuzzi
     value: false
   - name: Lujuria_hasSpokenOnce
     value: false

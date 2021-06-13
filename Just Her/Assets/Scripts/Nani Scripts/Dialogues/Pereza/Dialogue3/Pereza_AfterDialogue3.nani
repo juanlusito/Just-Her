@@ -3,11 +3,11 @@ Arion: Creo que hab�a una puerta pero estaba cerrada...
 Arion: �C�mo se supone que salga de aqu�?
 Arion: Necesito descansar un poco, estoy algo mareado
 @hide Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @wait 1
 5 minutos despu�s...
 @hide Dialogue
-@fadeIn
+@fadeIn objectName:BlackScreen
 @wait 1
 Arion: Bien, hora de salir de aqu�
 @hide Dialogue

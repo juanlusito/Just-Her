@@ -11,7 +11,7 @@ Arion: Recuerdo haberla leído antes de llegar aquí.
 ; @choice Interactuar goto:.Interactuar
 
 # fdc123e3
-; *Arion se acerca a la nota y la lee*
+; *Arion se acerca a la nota y la lee.*
 
 # bc0da8dc
 ; ???: S� que no lo quieres, que no lo deseaste, pero yo quiero luchar por �l, porque es nuestro hijo
@@ -25,4 +25,4 @@ Arion: Recuerdo haberla leído antes de llegar aquí.
 ; Arion: Ahora comprendo un poco más...
 
 # d9b1b14
-; Arion: Después de encontrar ésto en casa me desperté aquí, ¿verdad?
+; Arion: Después de encontrar ésto en casa me desperté aquí, ¿Verdad?

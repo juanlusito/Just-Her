@@ -20,7 +20,6 @@
     <type fullname="Naninovel.UI.ExternalScriptsBrowserReturnButton" preserve="all" />
     <type fullname="Naninovel.UI.TitleMenu" preserve="all" />
     <type fullname="Naninovel.UI.GameSettingsMenu" preserve="all" />
-    <type fullname="Naninovel.UI.GameSettingsAutoDelaySlider" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelLogButton" preserve="all" />
     <type fullname="Naninovel.UI.GameSettingsScreenModeDropdown" preserve="all" />
     <type fullname="Naninovel.FX.DigitalGlitch" preserve="all" />
@@ -36,7 +35,6 @@
     <type fullname="Naninovel.UI.CGGalleryPanel" preserve="all" />
     <type fullname="Naninovel.UI.GameSettingsVoiceVolumeSlider" preserve="all" />
     <type fullname="Naninovel.FX.ShakeBackground" preserve="all" />
-    <type fullname="Naninovel.UI.GameSettingsLanguageDropdown" preserve="all" />
     <type fullname="Naninovel.FX.DepthOfField" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelTipsButton" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelQuickLoadButton" preserve="all" />
@@ -60,7 +58,6 @@
     <type fullname="Naninovel.TipsListItem" preserve="all" />
     <type fullname="Naninovel.BacklogMessage" preserve="all" />
     <type fullname="Naninovel.UI.TitleSettingsButton" preserve="all" />
-    <type fullname="Naninovel.UI.GameSettingsFontDropdown" preserve="all" />
     <type fullname="Naninovel.UI.GameSettingsMasterVolumeSlider" preserve="all" />
     <type fullname="Naninovel.UI.TipsPanel" preserve="all" />
     <type fullname="Naninovel.UI.GameStateSlotsGrid" preserve="all" />
@@ -68,15 +65,14 @@
     <type fullname="Naninovel.UI.RevealableTMProText" preserve="all" />
     <type fullname="Naninovel.UI.GameSettingsBgmVolumeSlider" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelAutoPlayButton" preserve="all" />
-    <type fullname="Naninovel.UI.GameSettingsSkipModeDropdown" preserve="all" />
     <type fullname="Naninovel.ReactToAspectRatio" preserve="all" />
     <type fullname="Naninovel.UI.TitleNewGameButton" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelLoadButton" preserve="all" />
     <type fullname="Naninovel.UI.LoadingPanel" preserve="all" />
-    <type fullname="Naninovel.UI.GameSettingsVoiceLocaleDropdown" preserve="all" />
     <type fullname="Naninovel.UI.ChatPrinterPanel" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelTitleButton" preserve="all" />
     <type fullname="Naninovel.UI.ControlPanelSaveButton" preserve="all" />
+    <type fullname="Naninovel.UI.TitleContinueButton" preserve="all" />
     <type fullname="Naninovel.UI.GameSettingsMessageSpeedSlider" preserve="all" />
     <type fullname="Naninovel.UI.PauseUI" preserve="all" />
     <type fullname="Naninovel.UI.ChoiceHandlerButton" preserve="all" />
@@ -112,11 +108,11 @@
     <type fullname="UnityEngine.UI.Text" preserve="all" />
     <type fullname="UnityEngine.UI.Shadow" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
-    <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
     <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
@@ -129,12 +125,18 @@
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
   </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ConfirmationUIScript" preserve="all" />
+    <type fullname="SettingsScript" preserve="all" />
+    <type fullname="BacklogScript" preserve="all" />
+    <type fullname="ButtonScript" preserve="all" />
+    <type fullname="PauseMenuScript" preserve="all" />
+    <type fullname="SaveLoadUIScript" preserve="all" />
+    <type fullname="DialogueScript" preserve="all" />
+  </assembly>
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
-  </assembly>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="DialogueScript" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -147,10 +149,6 @@
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasGroup" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Video.VideoPlayer" preserve="all" />
-    <type fullname="UnityEngine.Video.VideoClip" preserve="all" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />

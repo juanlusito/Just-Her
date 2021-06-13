@@ -1,7 +1,5 @@
-@fadeOut
-@stopBgm  fade:1
 @wait 1
 @loadScene TitleScene
-@fadeIn
-@wait 
+@fadeIn objectName:BlackScreen
+@bgm introperfe
 @stop

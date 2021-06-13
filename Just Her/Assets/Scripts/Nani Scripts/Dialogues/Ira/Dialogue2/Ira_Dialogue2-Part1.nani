@@ -1,5 +1,5 @@
 @printer IraPrinter
-@sfx queja volume:0.1
+@sfx Ira.Queja volume:0.1
 @char Ira.Silueta pos:"59, 25, -5.4" time:1
 ???: �Qu� es lo que quieres ahora? �Acaso vienes a pedir perd�n?
 @char Ira.Default pos:"59, 25, -5.4" time:1
@@ -8,7 +8,7 @@
 @choice "¿Cómo puedes ser tan terca? Dices todo eso sobre mí cuando ni siquiera te conozco..." goto:.BranchB
 @stop
 # BranchA
-@sfx risa volume:0.1
+@sfx Ira.Risa volume:0.1
 @char Ira.Default pos:"59, 25, -5.4" time:1
 ???: �Bravo, felicidades al caballero!
 ???: �Y qu� pretendes con eso, est�pido? �Disculparte?

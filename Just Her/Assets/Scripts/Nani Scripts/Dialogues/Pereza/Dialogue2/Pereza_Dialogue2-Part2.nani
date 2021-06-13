@@ -1,9 +1,11 @@
 # BranchA-A
 @printer PerezaPrinter
+@sfx Pereza.Daiyobu
 Chica: �C�mo te encuentras, Arion?
 @printer Dialogue
 Arion: (No soy capaz de hablar... Apenas puedo abrir los ojos...)
 Arion: (Qu� est� ocurriendo...)
+@sfx Pereza.Risa
 @char Pereza.Avergonzada time:1
 @printer PerezaPrinter
 Chica: Vamos... rel�jate...
@@ -13,7 +15,7 @@ Arion: (Espera...)
 Arion: (No... puedo... moverme...)
 @hide Pereza
 @hide Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @stopBgm saloncortado fade:1
 Arion queda inconsciente y cae en un sue�o infinito...
 @hide Dialogue
@@ -22,6 +24,7 @@ Arion queda inconsciente y cae en un sue�o infinito...
 @goto GameOverScript
 @stop
 # BranchA-B
+@sfx Pereza.Queja
 @char Pereza.Avergonzada time:1
 @printer PerezaPrinter
 Chica: Va a ser m�s dif�cil de lo que me tem�a...
@@ -30,12 +33,12 @@ Chica: Est� bien... Te dejar� ir esta vez...
 Chica: Pero... no vas a tener tanta suerte con la puerta...
 @hide Pereza
 @printer Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @wait 1
 La vista de Arion se nubla y cae al suelo desorientado
 5 minutos despu�s...
 @hide Dialogue
-@fadeIn
+@fadeIn objectName:BlackScreen
 @wait 1
 Arion: Ah, mi cabeza...
 Arion: �Qu� ha ocurrido?

@@ -1,10 +1,10 @@
 @if Basement_hasExaminedWindow==false
 @disableInteraction
-	???: Podr�a intentar romper los barrotes e irme de aqu�
+???: Podr�a intentar romper los barrotes e irme de aqu�
 @printer PerezaPrinter
-	???: No creo que puedas escapar así
+???: No creo que puedas escapar así
 @printer Dialogue
-	???: �Que ha sido eso? Me ha parecido escuchar algo...
+???: �Que ha sido eso? Me ha parecido escuchar algo...
 @hide Dialogue
 @set Basement_hasExaminedWindow=true
 @set Basement_clickedObjects=Basement_clickedObjects-1
@@ -12,7 +12,7 @@
 @stop
 @elseif Basement_hasExaminedWindow==true
 @disableInteraction
-	???: No conseguir� nada por aqu�. Si al menos recordara algo...
+???: No conseguir� nada por aqu�. Si al menos recordara algo...
 @hide Dialogue
 @enableInteraction
 @stop

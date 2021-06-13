@@ -20,14 +20,14 @@ Ira: S� todo sobre t�, s� lo que le hiciste a mam�...
 @choice "Yo jamás haría daño a mi madre..." goto:Ira_Dialogue2-Part3.BranchA-B-B
 @stop
 # BranchB-A
-@sfx risa volume:0.1
+@sfx Ira.Risa volume:0.1
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: �S�! �Lo s� todo, peque�o pir�mano! Y pagar�s por ello...
 @choice "Lo sabr�s todo pero no entiendes nada. No todo es acierto y error. También hay intenciones y consecuencias..." goto:Ira_Dialogue2-Part3.BranchB-A-A
 @choice "Si lo sabes todo o, más bien, eres yo, tú también eres una estúpida. No entiendo cómo no comprendes nada" goto:Ira_Dialogue2-Part3.BranchB-A-B
 @stop
 # BranchB-B
-@sfx risa volume:0.75
+@sfx Ira.Risa volume:0.75
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: Creo que es obvio que a Pereza no le importas...
 Ira: Ésto es lo mejor para tí...

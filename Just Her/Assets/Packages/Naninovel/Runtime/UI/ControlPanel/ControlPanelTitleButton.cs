@@ -6,7 +6,7 @@ namespace Naninovel.UI
     public class ControlPanelTitleButton : ScriptableButton
     {
         [ManagedText("DefaultUI")]
-        protected static string ConfirmationMessage = "¿Seguro que quieres volver al menú principal? Recuerda que esta partida no se puede guardar";
+        protected static string ConfirmationMessage = "¿Seguro que quieres volver al menú principal?";
         private IStateManager gameState;
         private IUIManager uiManager;
         private IConfirmationUI confirmationUI;

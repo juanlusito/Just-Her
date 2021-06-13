@@ -1,7 +1,7 @@
 @disableInteraction
 Arion: Esta flor...
 @hide Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @wait 1
 @printer EllaPrinter
 ???: Hoy llevé yo la flor a tu padre...
@@ -15,7 +15,7 @@ Arion: Esta flor...
 ???: Estoy segura de que me escuchas de alguna manera...
 @hide EllaPrinter
 @printer Dialogue
-@fadeIn
+@fadeIn objectName:BlackScreen
 @wait 1
 Arion: Así que por eso estoy aquí...
 Arion: Realmente soy un imbécil

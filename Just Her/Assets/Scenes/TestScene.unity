@@ -6098,7 +6098,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182378457}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
@@ -6106,6 +6106,12 @@ MonoBehaviour:
   scriptName: PhotoScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!65 &182378459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6115,7 +6121,7 @@ BoxCollider:
   m_GameObject: {fileID: 182378457}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.6493049, y: 1.0070969, z: 0.096140034}
   m_Center: {x: -0.000000059604645, y: 0.0000019073486, z: 0.057628892}
@@ -16449,7 +16455,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pressedObject: {fileID: 0}
   rotationSpeed: 5
-  objectFovValue: 25
   zoom_InDuration: 1.5
   zoom_OutDuration: 1.5
   hasZoom_InEnded: 0
@@ -17694,10 +17699,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 620719747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1dbce45082a8a2a448a2f716d9f0a76a, type: 3}
+  m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: TestScript
+  scriptName: Pub_NoteScript
+  magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
+  pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!65 &620719749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18276,7 +18289,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730747157}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
@@ -18284,6 +18297,12 @@ MonoBehaviour:
   scriptName: SymbolScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!65 &730747159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21487,6 +21506,7 @@ GameObject:
   - component: {fileID: 1238915658}
   - component: {fileID: 1238915657}
   - component: {fileID: 1238915656}
+  - component: {fileID: 1238915660}
   m_Layer: 0
   m_Name: Cube
   m_TagString: InteractiveObject
@@ -21520,9 +21540,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scriptName: SaveScript
+  scriptName: TestScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 1
 --- !u!65 &1238915657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21532,7 +21558,7 @@ BoxCollider:
   m_GameObject: {fileID: 1238915654}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -21554,7 +21580,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4f6df64d89185794cb262ee6bb489f8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21583,6 +21609,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1238915654}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1238915660
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238915654}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 825cf6894c0968c4ab488268d061d958, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1242283770
 GameObject:
   m_ObjectHideFlags: 0
@@ -26773,7 +26818,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285183466}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
@@ -26781,6 +26826,12 @@ MonoBehaviour:
   scriptName: ChandelierScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!65 &1285183469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26790,7 +26841,7 @@ BoxCollider:
   m_GameObject: {fileID: 1285183466}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.42116767, y: 0.712546, z: 0.22403337}
   m_Center: {x: -0.053392626, y: -0.022548333, z: -0.0000004800197}
@@ -29150,7 +29201,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531894008}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e64a61f98dbf8184fa76a9a8d5430ad1, type: 3}
   m_Name: 
@@ -29158,6 +29209,12 @@ MonoBehaviour:
   scriptName: PubToKitchen
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!65 &1531894011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29167,7 +29224,7 @@ BoxCollider:
   m_GameObject: {fileID: 1531894008}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 4.080066, y: 0.78209215, z: 11.7665205}
   m_Center: {x: -0.4314567, y: -0.22530445, z: -0.47882235}
@@ -30180,6 +30237,12 @@ MonoBehaviour:
   scriptName: LampScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!135 &1709828206
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41905,6 +41968,12 @@ MonoBehaviour:
   scriptName: BottleScript
   magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
   pressedObject: {fileID: 0}
+  objectFOV_Value: 25
+  children: []
+  grandchildren: []
+  materialList: []
+  minimumRimValue: 0
+  maximumRimValue: 0
 --- !u!65 &2116032217
 BoxCollider:
   m_ObjectHideFlags: 0

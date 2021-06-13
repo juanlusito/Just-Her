@@ -131,13 +131,13 @@ MonoBehaviour:
       Guid: a32c73a3aff4b274c85b3ff16c854b07
     - Name: SaveLoadUI
       PathPrefix: UI
-      Guid: 8d53726b3d08433479398f02b4780e7f
+      Guid: 0808d44df11a3b748b2e5273c65b5e5c
     - Name: SceneTransitionUI
       PathPrefix: UI
       Guid: e3b234b4273b7f64ab3f1d9fe425ed23
     - Name: SettingsUI
       PathPrefix: UI
-      Guid: 65c37f59e9b266f468dd5381fdc03fc3
+      Guid: 939d376dbb433c64e9de4b290b40328f
     - Name: TipsUI
       PathPrefix: UI
       Guid: f5aae572225ee1b4c96d1a17fc5cb073
@@ -158,12 +158,21 @@ MonoBehaviour:
     - Name: SceneLoader
       PathPrefix: Scripts
       Guid: 6e41eb4a170dbe6498a9c44c9a2881df
+    - Name: LoadScript
+      PathPrefix: Scripts
+      Guid: e39ee40a1d9de8747b7b51f5ee0c80c0
     - Name: VictoryScript
       PathPrefix: Scripts
       Guid: b3df78ab9d8a94b41887be1c907e63a9
     - Name: GameOverScript
       PathPrefix: Scripts
       Guid: 897f02e488d68d6458b84d2a78df9a5b
+    - Name: TestIntroScript
+      PathPrefix: Scripts
+      Guid: 656361c95109f654f9c85b4f21777690
+    - Name: TestScript
+      PathPrefix: Scripts
+      Guid: df8ffeec809354a48bf7a57f24ee5849
     - Name: Ira_StageIntroScript
       PathPrefix: Scripts
       Guid: 8b1f3f7181fd5534bbe98db07edb7d7a
@@ -227,12 +236,12 @@ MonoBehaviour:
     - Name: Ira_Dialogue2-Part3
       PathPrefix: Scripts
       Guid: 5757f3a20b7bcf441b466da6257cd33d
-    - Name: Ira_AfterDialogue2
-      PathPrefix: Scripts
-      Guid: 46c71c07b40688f4487870b4008d8766
     - Name: Ira_Dialogue2-Part4
       PathPrefix: Scripts
       Guid: d12e3bc4a210612478aab7b907a753c8
+    - Name: Ira_AfterDialogue2
+      PathPrefix: Scripts
+      Guid: 46c71c07b40688f4487870b4008d8766
     - Name: Ira_Dialogue3-Part1
       PathPrefix: Scripts
       Guid: 9999dfae8da3af042bec99b494a2c17e
@@ -287,30 +296,99 @@ MonoBehaviour:
     - Name: Pereza_AfterDialogue3
       PathPrefix: Scripts
       Guid: 917172bb22d00fb44a11e7b9030fd674
-    - Name: Save_LoadTest
-      PathPrefix: Scripts
-      Guid: ced48b7a483353f4086720189c1df87f
-    - Name: SaveScript
-      PathPrefix: Scripts
-      Guid: 07281aa931870d843a082fb737843538
-    - Name: TestScript
-      PathPrefix: Scripts
-      Guid: df8ffeec809354a48bf7a57f24ee5849
     - Name: Hall_IntroScript
       PathPrefix: Scripts
       Guid: b2df5f0c456e3514eabde707b33188e4
-    - Name: Hall_PerezaDoor
+    - Name: Hall_PerezaDoorScript
       PathPrefix: Scripts
       Guid: ae954fbf9eaf52044976a19dab551266
-    - Name: Hall_IraDoor
+    - Name: Hall_LujuriaDoorScript
+      PathPrefix: Scripts
+      Guid: 0bc2f2ab924185a4f918fc6faa16c0c6
+    - Name: Hall_IraDoorScript
       PathPrefix: Scripts
       Guid: 92ccc4ffa5e47274f92edcac03f9b2b3
     - Name: Hall_LockScript
       PathPrefix: Scripts
       Guid: 127f027e9f65c2c46bd72e5aa3de1877
-    - Name: MainMenuScript
+    - Name: Lujuria_StageIntroScript
       PathPrefix: Scripts
-      Guid: 5df52bd24482e5b4d8743018656b7a2a
+      Guid: 29c8b24d5fbba2d44ab8ba7dcd126028
+    - Name: LoveRoom_HandcuffsScript
+      PathPrefix: Scripts
+      Guid: 58e5ec3bfd909b7499aa5fd2da361245
+    - Name: LoveRoom_LongChairScript
+      PathPrefix: Scripts
+      Guid: cd1971f5afd8f1e43971b92f29d39aef
+    - Name: LoveRoom_tShirtScript
+      PathPrefix: Scripts
+      Guid: 8eb484838d44ba34c989a62c63f1f10d
+    - Name: LoveRoomToHall
+      PathPrefix: Scripts
+      Guid: a45e07de8a55e1f4189bd50f140f5689
+    - Name: LoveRoom_LujuriaSymbol
+      PathPrefix: Scripts
+      Guid: 48d40461f0c5a4a438232d5bb4a42046
+    - Name: LoveRoomToBath
+      PathPrefix: Scripts
+      Guid: 37f955545fdbb404eb2cc847ed49c58c
+    - Name: Bath_PendantScript
+      PathPrefix: Scripts
+      Guid: 647014c321030af4fa58aeed891be80e
+    - Name: Bath_CandleScript
+      PathPrefix: Scripts
+      Guid: f34807e77937bc045951f3621e4b4280
+    - Name: Bath_JacuzziScript
+      PathPrefix: Scripts
+      Guid: c67c331e3b3cae446b00eada094ad9dc
+    - Name: Bath_ClothesScript
+      PathPrefix: Scripts
+      Guid: 2dce23f4e5537364c96d0d07ef1e5a40
+    - Name: Bath_JacuzziScript_hasMetLujuria
+      PathPrefix: Scripts
+      Guid: f569706a4ccf6f7418ba9ee383cef4fd
+    - Name: Bath_JacuzziScript_hasNotMetLujuria
+      PathPrefix: Scripts
+      Guid: 8fa6740a9b2202a4fa74e9e5e17ec572
+    - Name: BathToLoveRoom
+      PathPrefix: Scripts
+      Guid: 6d6dd65fbb1f5ce47ba06e4c263a1be7
+    - Name: Lujuria_Dialogue1-Part1
+      PathPrefix: Scripts
+      Guid: bab1a9035a288e54099ff5cf8d804059
+    - Name: Lujuria_Dialogue1-Part2
+      PathPrefix: Scripts
+      Guid: a2461ec94f46b6f4bac2f20443f6ce19
+    - Name: Lujuria_Dialogue1-Part3
+      PathPrefix: Scripts
+      Guid: 5fda22f318670c044b3ce5f4c7805f08
+    - Name: Lujuria_AfterDialogue1
+      PathPrefix: Scripts
+      Guid: 97c37364974df474cb0f455ac75fc38b
+    - Name: Lujuria_Dialogue2-Part1
+      PathPrefix: Scripts
+      Guid: b288d210537cca44e959f63ca9279d03
+    - Name: Lujuria_Dialogue2-Part2
+      PathPrefix: Scripts
+      Guid: 0349bcf1fbe71cb4c98d42ce4416572e
+    - Name: Lujuria_Dialogue2-Part3
+      PathPrefix: Scripts
+      Guid: 1fa451c64ec96324683df02565f411c9
+    - Name: Lujuria_Dialogue2-Part4
+      PathPrefix: Scripts
+      Guid: ee5633cf2a4f64548b6c3d521cdb44df
+    - Name: Ella_Dialogue1
+      PathPrefix: Scripts
+      Guid: f24545728ca244c4faaeaf44f189213c
+    - Name: Ella_Dialogue2
+      PathPrefix: Scripts
+      Guid: ec1ca239198d59940ad097ae00eca4aa
+    - Name: InstructionsScript
+      PathPrefix: Scripts
+      Guid: 4b5b83f6c5af5624d8a8fe35614113a9
+    - Name: ToTitleScript
+      PathPrefix: Scripts
+      Guid: 6b2531a8180f02149abab0431e937b6f
   - Id: Characters/63388797-caaf-4dae-a08c-b68900e5bfba
     Resources:
     - Name: Default
@@ -330,45 +408,81 @@ MonoBehaviour:
       Guid: 3fa2597034e1baa4cb7357ac5fe92b8a
   - Id: Audio
     Resources:
-    - Name: baka mejorado
+    - Name: Ira.Baka
       PathPrefix: Audio
       Guid: 2bc18e41f740531428a7349b6d42d800
-    - Name: bakk
-      PathPrefix: Audio
-      Guid: 64de42ab54241e64eadc3d6468652e7a
-    - Name: interrogativo
+    - Name: Ira.Hmm
       PathPrefix: Audio
       Guid: 84979ae1c42fb5a4f9a2c7da5a682052
-    - Name: kuso
+    - Name: Ira.Kuso
       PathPrefix: Audio
       Guid: e90f5fae7b8745640a5402a57680fb69
-    - Name: queja
+    - Name: Ira.Queja
       PathPrefix: Audio
       Guid: 0d0fe1e4c10858841978b64c7a0b6a32
-    - Name: risa
-      PathPrefix: Audio
-      Guid: 9214c17f8516a844fbe4f568c0f7ef20
-    - Name: shine enfado
-      PathPrefix: Audio
-      Guid: 9594ce67af4a0bb4dacab56e6bdd4170
-    - Name: sonido interrogativo 4
+    - Name: Ira.Huh
       PathPrefix: Audio
       Guid: c12ad3d6c7dff7242b3eb7d6aafc4d0f
-    - Name: sonido queja
+    - Name: Ira.Risa
       PathPrefix: Audio
-      Guid: 5075007948ad0ac41a716ce93d778a38
-    - Name: suspira
+      Guid: 9214c17f8516a844fbe4f568c0f7ef20
+    - Name: Ira.Shine
+      PathPrefix: Audio
+      Guid: 9594ce67af4a0bb4dacab56e6bdd4170
+    - Name: Ira.Suspiro
       PathPrefix: Audio
       Guid: a7f35f4a541f72e428a3d5fd26996a99
-    - Name: urusai
+    - Name: Ira.Urusai
       PathPrefix: Audio
       Guid: 4c6fdf2d0e9546d4ebc17e23063db3e8
+    - Name: Pereza.Daiyobu
+      PathPrefix: Audio
+      Guid: 5b9a3d49b10af7f4e94d2e00f66f76ce
+    - Name: Pereza.Demo
+      PathPrefix: Audio
+      Guid: 0246df31e24a4714f96a0dec2ef471b9
+    - Name: Pereza.Gomen
+      PathPrefix: Audio
+      Guid: 1d55e9c76287d714583a24ee2deb1f30
+    - Name: Pereza.Hayaku
+      PathPrefix: Audio
+      Guid: c296a9c360dd8c24498355d4864f1772
+    - Name: Pereza.Suspiro
+      PathPrefix: Audio
+      Guid: bba74baafef524440baa62c040068b91
+    - Name: Pereza.Pregunta
+      PathPrefix: Audio
+      Guid: 4a142c2cf14db0f4683886a92d9bc565
+    - Name: Pereza.Risa
+      PathPrefix: Audio
+      Guid: 6f21355f24ebe534f81aece0ebb506ac
+    - Name: Lujuria.Aho
+      PathPrefix: Audio
+      Guid: d65258420554abe48bf9e1ce2c6cafd0
+    - Name: Lujuria.ChottoMate
+      PathPrefix: Audio
+      Guid: 26128cc7fafd9cb42a0e32eb7f92d941
+    - Name: Lujuria.Naisu
+      PathPrefix: Audio
+      Guid: 291cf6e590a1e51469367474e5ccf27f
+    - Name: Lujuria.Pregunta
+      PathPrefix: Audio
+      Guid: 26e10009197a60b46b5ae2ba94bb233b
+    - Name: Lujuria.Risa
+      PathPrefix: Audio
+      Guid: 865de78d97fd2f6469b834fb34027d14
+    - Name: Lujuria.Shinpaisinai
+      PathPrefix: Audio
+      Guid: 3fc5ea909bbf5304882f6c0fcb76ab4c
+    - Name: Lujuria.Suspiro
+      PathPrefix: Audio
+      Guid: 399b80b2125bbb84b83efbf246ec179d
+    - Name: Lujuria.AraAra
+      PathPrefix: Audio
+      Guid: 0a4ac7b836db4f5438814581366fe72a
     - Name: cocina
       PathPrefix: Audio
       Guid: af7da0134db62b441a7523350d91843e
-    - Name: ganar
-      PathPrefix: Audio
-      Guid: 1cb2ce7b024cf4947ab23e4e83b9f292
     - Name: introperfe
       PathPrefix: Audio
       Guid: 18359a9e868011e42a7ebae859cee866
@@ -384,20 +498,53 @@ MonoBehaviour:
     - Name: pasillocortado
       PathPrefix: Audio
       Guid: 6fe97519dc1800e47a9d476be6dd6894
+    - Name: ganar
+      PathPrefix: Audio
+      Guid: 1cb2ce7b024cf4947ab23e4e83b9f292
+    - Name: "ba\xF1o"
+      PathPrefix: Audio
+      Guid: 78630b86ad628d744914d35e1fab49e8
+    - Name: habitacionlujuria
+      PathPrefix: Audio
+      Guid: b9f10a03d9ddb084e9e4c09f88662994
   - Id: Backgrounds/6797e6be-0874-4a12-b99d-e7832daf5eb0
     Resources:
     - Name: TitleBackground
       PathPrefix: Backgrounds/MainBackground
-      Guid: 52fabaa92a7e18048a4c8d317d7c238d
+      Guid: 823d83de305ba8c49b978bdf83c14912
     - Name: GameOverBackground
       PathPrefix: Backgrounds/MainBackground
-      Guid: a1fac2a43963ec049aa932a70fb0d1af
+      Guid: 045bd02f49cd31b48be2ac55de935e52
     - Name: BackgroundFiller
       PathPrefix: Backgrounds/MainBackground
       Guid: 7eeeefab61c64ca4a97736d630841a7c
     - Name: VictoryBackground
       PathPrefix: Backgrounds/MainBackground
-      Guid: 7d2292ab72002e4459ce191f4b8df4ec
+      Guid: 34169473de994ff459b9cc5f783d22e1
+    - Name: CharacterNameFocused
+      PathPrefix: Backgrounds/MainBackground
+      Guid: ad89ed2dfe6610a4792eb0398a4cf6bb
+    - Name: CharacterPrinter
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 68b43eb343a1155499af078b398f34e3
+    - Name: Choice
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 16f544f9b3ab7d9498fb8b7fee7871e3
+    - Name: Dialogue
+      PathPrefix: Backgrounds/MainBackground
+      Guid: d353ff63e1a6c01458c245daa8bb2c62
+    - Name: GameOver
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 7eecd7b64b3dec84dafcb0c30d479749
+    - Name: HighlightedObject
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 4a3c6f4bcc0bec24da7d593db9143844
+    - Name: Scenery
+      PathPrefix: Backgrounds/MainBackground
+      Guid: b6c5a5f5c7ab70e4898eb6d31d841c36
+    - Name: SelectedObject
+      PathPrefix: Backgrounds/MainBackground
+      Guid: 01b030cf39cfe84439525756830e01a6
   - Id: Unlockables
     Resources: []
   - Id: CharacterAvatars
@@ -434,3 +581,33 @@ MonoBehaviour:
     - Name: Pensativa
       PathPrefix: Characters/Pereza
       Guid: 444f8c7c3d39c45469fa46ac64643d9f
+  - Id: Characters/aea43fa1-8870-4e6b-8533-166c0f65e5ac
+    Resources:
+    - Name: Default
+      PathPrefix: Characters/Lujuria
+      Guid: 8e3a839b8e257b748b16357110d3d075
+    - Name: Enfadada
+      PathPrefix: Characters/Lujuria
+      Guid: 6b18aee8a9b521b428cc8103eb56c2c7
+    - Name: Pensativa
+      PathPrefix: Characters/Lujuria
+      Guid: 2127da17faa00b24ba3109b177fa46dc
+    - Name: Sexy
+      PathPrefix: Characters/Lujuria
+      Guid: a83e55f9b2f094e4b93c47bcce5a59b8
+    - Name: Silueta
+      PathPrefix: Characters/Lujuria
+      Guid: dd325f05c1d8b0f4eb58263980a1e4f4
+  - Id: TextPrinters/4da2d82c-bbcf-46ba-a989-e8f1ee383ce2
+    Resources:
+    - Name: LujuriaPrinter
+      PathPrefix: TextPrinters
+      Guid: 0af074a67fcf5444eb7d5d30f115e4b6
+  - Id: Characters/ea7fc8d5-d20b-44de-b98f-cf4ec2c437fd
+    Resources:
+    - Name: DemoCompletada
+      PathPrefix: Characters/SpecialSprites
+      Guid: d0418d9533a49bb4abcaa4e702ae3ae7
+    - Name: GameOver
+      PathPrefix: Characters/SpecialSprites
+      Guid: a0717dcaf73ec4e4db78ca5eb70ab518

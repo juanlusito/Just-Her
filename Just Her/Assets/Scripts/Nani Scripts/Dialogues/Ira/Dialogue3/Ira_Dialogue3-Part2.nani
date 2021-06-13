@@ -9,8 +9,8 @@ Ira: �Por eso me frustra tanto tu ignorancia, el hecho de que quieras salvarte
 Ira: �TE ODIO!
 @hide Ira
 @printer Dialogue
-@fadeOut
-@stopBgm salon fade:1
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
 @loadScene FillerScene
 @goto GameOverScript
 @stop

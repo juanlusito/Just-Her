@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: Naninovel
   m_Data:
     m_SerializedData: []
-  m_GUID: 239efcd634e28c846b3afbde5f715252
+  m_GUID: 194a64f11bdc8e6468f9dee06b9e87fd
   m_SerializeEntries:
   - m_GUID: 00c889ac9dd95bd49a061ff2826c5576
     m_Address: Naninovel/Characters/Ira/Enfadada
@@ -31,6 +31,27 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 01b030cf39cfe84439525756830e01a6
+    m_Address: Naninovel/Backgrounds/MainBackground/SelectedObject
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0246df31e24a4714f96a0dec2ef471b9
+    m_Address: Naninovel/Audio/Pereza.Demo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0349bcf1fbe71cb4c98d42ce4416572e
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue2-Part2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 034bae49c40f48747b7083053f94e23e
     m_Address: Naninovel/UI/PauseUI
     m_ReadOnly: 0
@@ -38,8 +59,36 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 07281aa931870d843a082fb737843538
-    m_Address: Naninovel/Scripts/SaveScript
+  - m_GUID: 045bd02f49cd31b48be2ac55de935e52
+    m_Address: Naninovel/Backgrounds/MainBackground/GameOverBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0808d44df11a3b748b2e5273c65b5e5c
+    m_Address: Naninovel/UI/SaveLoadUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0a4ac7b836db4f5438814581366fe72a
+    m_Address: Naninovel/Audio/Lujuria.AraAra
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0af074a67fcf5444eb7d5d30f115e4b6
+    m_Address: Naninovel/TextPrinters/LujuriaPrinter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0bc2f2ab924185a4f918fc6faa16c0c6
+    m_Address: Naninovel/Scripts/Hall_LujuriaDoorScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -53,7 +102,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0d0fe1e4c10858841978b64c7a0b6a32
-    m_Address: Naninovel/Audio/queja
+    m_Address: Naninovel/Audio/Ira.Queja
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -82,6 +131,13 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 127f027e9f65c2c46bd72e5aa3de1877
     m_Address: Naninovel/Scripts/Hall_LockScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 16f544f9b3ab7d9498fb8b7fee7871e3
+    m_Address: Naninovel/Backgrounds/MainBackground/Choice
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -122,6 +178,13 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 1d55e9c76287d714583a24ee2deb1f30
+    m_Address: Naninovel/Audio/Pereza.Gomen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 1f61f2ec533dbac498fff52d51f21b0a
     m_Address: Naninovel/UI/BacklogUI
     m_ReadOnly: 0
@@ -136,6 +199,20 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 1fa451c64ec96324683df02565f411c9
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue2-Part3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2127da17faa00b24ba3109b177fa46dc
+    m_Address: Naninovel/Characters/Lujuria/Pensativa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 225f53e6b329a444b89184cde3791a0c
     m_Address: Naninovel/UI/TitleUI
     m_ReadOnly: 0
@@ -143,8 +220,36 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 26128cc7fafd9cb42a0e32eb7f92d941
+    m_Address: Naninovel/Audio/Lujuria.ChottoMate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 26e10009197a60b46b5ae2ba94bb233b
+    m_Address: Naninovel/Audio/Lujuria.Pregunta
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 2795040988e866646801c80024c50be1
     m_Address: Naninovel/Spawn/ShakePrinter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 291cf6e590a1e51469367474e5ccf27f
+    m_Address: Naninovel/Audio/Lujuria.Naisu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 29c8b24d5fbba2d44ab8ba7dcd126028
+    m_Address: Naninovel/Scripts/Lujuria_StageIntroScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -158,7 +263,14 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 2bc18e41f740531428a7349b6d42d800
-    m_Address: Naninovel/Audio/baka mejorado
+    m_Address: Naninovel/Audio/Ira.Baka
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 2dce23f4e5537364c96d0d07ef1e5a40
+    m_Address: Naninovel/Scripts/Bath_ClothesScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -178,8 +290,36 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 34169473de994ff459b9cc5f783d22e1
+    m_Address: Naninovel/Backgrounds/MainBackground/VictoryBackground
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 37f955545fdbb404eb2cc847ed49c58c
+    m_Address: Naninovel/Scripts/LoveRoomToBath
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 399b80b2125bbb84b83efbf246ec179d
+    m_Address: Naninovel/Audio/Lujuria.Suspiro
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 3fa2597034e1baa4cb7357ac5fe92b8a
     m_Address: Naninovel/Characters/Ira/Alegre
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3fc5ea909bbf5304882f6c0fcb76ab4c
+    m_Address: Naninovel/Audio/Lujuria.Shinpaisinai
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -213,8 +353,36 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 48d40461f0c5a4a438232d5bb4a42046
+    m_Address: Naninovel/Scripts/LoveRoom_LujuriaSymbol
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4a142c2cf14db0f4683886a92d9bc565
+    m_Address: Naninovel/Audio/Pereza.Pregunta
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4a3c6f4bcc0bec24da7d593db9143844
+    m_Address: Naninovel/Backgrounds/MainBackground/HighlightedObject
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 4b5b83f6c5af5624d8a8fe35614113a9
+    m_Address: Naninovel/Scripts/InstructionsScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 4c6fdf2d0e9546d4ebc17e23063db3e8
-    m_Address: Naninovel/Audio/urusai
+    m_Address: Naninovel/Audio/Ira.Urusai
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -229,20 +397,6 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4fa6d62f894ae6e4698bfa8af59e7942
     m_Address: Naninovel/ChoiceHandlers/ButtonArea
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Naninovel
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 5075007948ad0ac41a716ce93d778a38
-    m_Address: Naninovel/Audio/sonido queja
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Naninovel
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 52fabaa92a7e18048a4c8d317d7c238d
-    m_Address: Naninovel/Backgrounds/MainBackground/TitleBackground
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -269,6 +423,27 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 58e5ec3bfd909b7499aa5fd2da361245
+    m_Address: Naninovel/Scripts/LoveRoom_HandcuffsScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5b9a3d49b10af7f4e94d2e00f66f76ce
+    m_Address: Naninovel/Audio/Pereza.Daiyobu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5fda22f318670c044b3ce5f4c7805f08
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue1-Part3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 622cd6ef04a23054284ea003c2dd0941
     m_Address: Naninovel/Scripts/Kitchen_FlowerScript
     m_ReadOnly: 0
@@ -276,15 +451,15 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 64de42ab54241e64eadc3d6468652e7a
-    m_Address: Naninovel/Audio/bakk
+  - m_GUID: 647014c321030af4fa58aeed891be80e
+    m_Address: Naninovel/Scripts/Bath_PendantScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 65c37f59e9b266f468dd5381fdc03fc3
-    m_Address: Naninovel/UI/SettingsUI
+  - m_GUID: 656361c95109f654f9c85b4f21777690
+    m_Address: Naninovel/Scripts/TestIntroScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -297,8 +472,43 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 68b43eb343a1155499af078b398f34e3
+    m_Address: Naninovel/Backgrounds/MainBackground/CharacterPrinter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 6aeedfbea54c9c344b8fe3436b0e4ceb
     m_Address: Naninovel/Audio/salon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6b18aee8a9b521b428cc8103eb56c2c7
+    m_Address: Naninovel/Characters/Lujuria/Enfadada
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6b2531a8180f02149abab0431e937b6f
+    m_Address: Naninovel/Scripts/ToTitleScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6d6dd65fbb1f5ce47ba06e4c263a1be7
+    m_Address: Naninovel/Scripts/BathToLoveRoom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6f21355f24ebe534f81aece0ebb506ac
+    m_Address: Naninovel/Audio/Pereza.Risa
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -339,6 +549,13 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: 78630b86ad628d744914d35e1fab49e8
+    m_Address: "Naninovel/Audio/ba\xF1o"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 7bf06fa813bb9c34daf521998fa72ab1
     m_Address: Naninovel/Spawn/Animate
     m_ReadOnly: 0
@@ -346,8 +563,8 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 7d2292ab72002e4459ce191f4b8df4ec
-    m_Address: Naninovel/Backgrounds/MainBackground/VictoryBackground
+  - m_GUID: 7eecd7b64b3dec84dafcb0c30d479749
+    m_Address: Naninovel/Backgrounds/MainBackground/GameOver
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -360,36 +577,78 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 84979ae1c42fb5a4f9a2c7da5a682052
-    m_Address: Naninovel/Audio/interrogativo
+  - m_GUID: 823d83de305ba8c49b978bdf83c14912
+    m_Address: Naninovel/Backgrounds/MainBackground/TitleBackground
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 8d53726b3d08433479398f02b4780e7f
-    m_Address: Naninovel/UI/SaveLoadUI
+  - m_GUID: 84979ae1c42fb5a4f9a2c7da5a682052
+    m_Address: Naninovel/Audio/Ira.Hmm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 865de78d97fd2f6469b834fb34027d14
+    m_Address: Naninovel/Audio/Lujuria.Risa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8e3a839b8e257b748b16357110d3d075
+    m_Address: Naninovel/Characters/Lujuria/Default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8eb484838d44ba34c989a62c63f1f10d
+    m_Address: Naninovel/Scripts/LoveRoom_tShirtScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8fa6740a9b2202a4fa74e9e5e17ec572
+    m_Address: Naninovel/Scripts/Bath_JacuzziScript_hasNotMetLujuria
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9214c17f8516a844fbe4f568c0f7ef20
-    m_Address: Naninovel/Audio/risa
+    m_Address: Naninovel/Audio/Ira.Risa
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 92ccc4ffa5e47274f92edcac03f9b2b3
-    m_Address: Naninovel/Scripts/Hall_IraDoor
+    m_Address: Naninovel/Scripts/Hall_IraDoorScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 939d376dbb433c64e9de4b290b40328f
+    m_Address: Naninovel/UI/SettingsUI
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9594ce67af4a0bb4dacab56e6bdd4170
-    m_Address: Naninovel/Audio/shine enfado
+    m_Address: Naninovel/Audio/Ira.Shine
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 97c37364974df474cb0f455ac75fc38b
+    m_Address: Naninovel/Scripts/Lujuria_AfterDialogue1
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -416,8 +675,15 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: a1fac2a43963ec049aa932a70fb0d1af
-    m_Address: Naninovel/Backgrounds/MainBackground/GameOverBackground
+  - m_GUID: a0717dcaf73ec4e4db78ca5eb70ab518
+    m_Address: Naninovel/Characters/SpecialSprites/GameOver
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a2461ec94f46b6f4bac2f20443f6ce19
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue1-Part2
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -437,8 +703,22 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: a45e07de8a55e1f4189bd50f140f5689
+    m_Address: Naninovel/Scripts/LoveRoomToHall
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: a7f35f4a541f72e428a3d5fd26996a99
-    m_Address: Naninovel/Audio/suspira
+    m_Address: Naninovel/Audio/Ira.Suspiro
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a83e55f9b2f094e4b93c47bcce5a59b8
+    m_Address: Naninovel/Characters/Lujuria/Sexy
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -458,8 +738,15 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: ad89ed2dfe6610a4792eb0398a4cf6bb
+    m_Address: Naninovel/Backgrounds/MainBackground/CharacterNameFocused
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: ae954fbf9eaf52044976a19dab551266
-    m_Address: Naninovel/Scripts/Hall_PerezaDoor
+    m_Address: Naninovel/Scripts/Hall_PerezaDoorScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -467,6 +754,13 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: af7da0134db62b441a7523350d91843e
     m_Address: Naninovel/Audio/cocina
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b288d210537cca44e959f63ca9279d03
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue2-Part1
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -486,8 +780,36 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: b6c5a5f5c7ab70e4898eb6d31d841c36
+    m_Address: Naninovel/Backgrounds/MainBackground/Scenery
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b9f10a03d9ddb084e9e4c09f88662994
+    m_Address: Naninovel/Audio/habitacionlujuria
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bab1a9035a288e54099ff5cf8d804059
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue1-Part1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: bb95f484e341dcd4391a572f22b7d067
     m_Address: Naninovel/UI/VariableInputUI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bba74baafef524440baa62c040068b91
+    m_Address: Naninovel/Audio/Pereza.Suspiro
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -515,7 +837,14 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: c12ad3d6c7dff7242b3eb7d6aafc4d0f
-    m_Address: Naninovel/Audio/sonido interrogativo 4
+    m_Address: Naninovel/Audio/Ira.Huh
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c296a9c360dd8c24498355d4864f1772
+    m_Address: Naninovel/Audio/Pereza.Hayaku
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -535,6 +864,13 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: c67c331e3b3cae446b00eada094ad9dc
+    m_Address: Naninovel/Scripts/Bath_JacuzziScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: c87cebd3f0d4f174789cd351ce9591c4
     m_Address: Naninovel/TextPrinters/Fullscreen
     m_ReadOnly: 0
@@ -542,8 +878,15 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: ced48b7a483353f4086720189c1df87f
-    m_Address: Naninovel/Scripts/Save_LoadTest
+  - m_GUID: cd1971f5afd8f1e43971b92f29d39aef
+    m_Address: Naninovel/Scripts/LoveRoom_LongChairScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d0418d9533a49bb4abcaa4e702ae3ae7
+    m_Address: Naninovel/Characters/SpecialSprites/DemoCompletada
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -556,6 +899,20 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: d353ff63e1a6c01458c245daa8bb2c62
+    m_Address: Naninovel/Backgrounds/MainBackground/Dialogue
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d65258420554abe48bf9e1ce2c6cafd0
+    m_Address: Naninovel/Audio/Lujuria.Aho
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: dc9980d0a78a5bd47b09e3d1faf7b44a
     m_Address: Naninovel/Characters/Ira/Default
     m_ReadOnly: 0
@@ -563,8 +920,22 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: dd325f05c1d8b0f4eb58263980a1e4f4
+    m_Address: Naninovel/Characters/Lujuria/Silueta
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: df8ffeec809354a48bf7a57f24ee5849
     m_Address: Naninovel/Scripts/TestScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e39ee40a1d9de8747b7b51f5ee0c80c0
+    m_Address: Naninovel/Scripts/LoadScript
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -592,7 +963,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e90f5fae7b8745640a5402a57680fb69
-    m_Address: Naninovel/Audio/kuso
+    m_Address: Naninovel/Audio/Ira.Kuso
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel
@@ -605,8 +976,43 @@ MonoBehaviour:
     - Naninovel
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
+  - m_GUID: ec1ca239198d59940ad097ae00eca4aa
+    m_Address: Naninovel/Scripts/Ella_Dialogue2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ee5633cf2a4f64548b6c3d521cdb44df
+    m_Address: Naninovel/Scripts/Lujuria_Dialogue2-Part4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f24545728ca244c4faaeaf44f189213c
+    m_Address: Naninovel/Scripts/Ella_Dialogue1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: f28472bb572fb064182ac9551fae9f66
     m_Address: Naninovel/Characters/Pereza/Avergonzada
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f34807e77937bc045951f3621e4b4280
+    m_Address: Naninovel/Scripts/Bath_CandleScript
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Naninovel
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f569706a4ccf6f7418ba9ee383cef4fd
+    m_Address: Naninovel/Scripts/Bath_JacuzziScript_hasMetLujuria
     m_ReadOnly: 0
     m_SerializedLabels:
     - Naninovel

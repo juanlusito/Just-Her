@@ -1,5 +1,5 @@
 @printer IraPrinter
-@sfx suspira volume:0.1
+@sfx Ira.Suspiro volume:0.1
 @char Ira.Silueta pos:"59, 25, -5.4" time:1
 Ira: Ya no s� qu� hacer contigo... Me confundes...
 @char Ira.Default pos:"59, 25, -5.4" time:1
@@ -11,7 +11,7 @@ Ira: Me est�s hartando...
 @choice "Afrontar la realidad es duro, pero es lo que toca. Creo que padre no escogi� bien el camino a seguir..." goto:.BranchB
 @stop
 # BranchA
-@sfx interrogativo volume:0.1
+@sfx Ira.Hmm volume:0.1
 @char Ira.Pensativa pos:"59, 25, -5.4" time:1
 Ira: Pero... �por qu�?
 Ira: N-no hay esperanzas de cambiar...
@@ -40,7 +40,7 @@ Ira: Gracias... Arion.
 @goto Ira_AfterDialogue3
 @stop
 # BranchB
-@sfx interrogativo volume:0.1
+@sfx Ira.Hmm volume:0.1
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
 @spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 Ira: �Y t� que sabes de afrontar realidades?

@@ -94,7 +94,7 @@ Chica: Será mejor que descanses un poco antes de seguir tu duro viaje...
 
 # 6acabf88
 ; (Las palabras resuenan con eco en la cabeza de Arion)
-
+(Las palabras resuenan con eco en la cabeza de Arion.)
 # 323f1fa6
 ; @choice "Puede que tengas raz�n" goto:Pereza_Dialogue2-Part2.BranchA-A
  @choice "Puede que tengas razón" goto:Pereza_Dialogue2-Part2.BranchA-A

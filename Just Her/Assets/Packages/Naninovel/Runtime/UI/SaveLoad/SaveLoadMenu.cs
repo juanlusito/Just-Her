@@ -106,7 +106,8 @@ namespace Naninovel.UI
             switch (value)
             {
                 case SaveLoadUIPresentationMode.QuickLoad:
-                    loadToggle.gameObject.SetActive(true);
+                    // loadToggle.gameObject.SetActive(true);
+                    loadToggle.gameObject.SetActive(false);
                     quickLoadToggle.gameObject.SetActive(true);
                     quickLoadToggle.isOn = true;
                     saveToggle.gameObject.SetActive(false);

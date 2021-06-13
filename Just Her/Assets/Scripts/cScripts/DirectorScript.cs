@@ -11,25 +11,29 @@ public class DirectorScript : MonoBehaviour
     static GameObject directorInstance;
     public static DirectorScript directorSingleton;
     public IScriptPlayer scriptPlayer;
-    IStateManager stateManager;
+    public IStateManager stateManager;
+    public ICustomVariableManager variableManager;
+    public IAudioManager audioManager;
     [HideInInspector] public string scriptName;
     public GameObject[] interactiveObjectsArray;
     CameraMovement cameraScript;
-    // SaveManager saveManager;
-    BlackScreenScript blackScreenScript;
-    public Shader highlightShader;
-    public Shader defaultShader;
+    FadingScreenScript blackScreenScript;
+    FadingScreenScript whiteScreenScript;
+    SaveManager saveManager;
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
         if (directorInstance == null)
         {
-            blackScreenScript = GameObject.Find("BlackScreenCanvas").GetComponentInChildren<BlackScreenScript>();
-            SceneManager.activeSceneChanged += SearchScripts;
+            DontDestroyOnLoad(gameObject);
+            blackScreenScript = GameObject.Find("BlackScreenCanvas").GetComponentInChildren<FadingScreenScript>();
+            whiteScreenScript = GameObject.Find("WhiteScreenCanvas").GetComponentInChildren<FadingScreenScript>();
+            variableManager = Engine.GetService<ICustomVariableManager>();
             stateManager = Engine.GetService<IStateManager>();
-            /*saveManager = gameObject.GetComponent<SaveManager>();
+            audioManager = Engine.GetService<IAudioManager>();
+            saveManager = GameObject.Find("SaveManager").GetComponent<SaveManager>();
             stateManager.AddOnGameSerializeTask(saveManager.SerializeState);
-            stateManager.AddOnGameDeserializeTask(saveManager.DeserializeState);*/
+            stateManager.AddOnGameDeserializeTask(saveManager.DeserializeState);
+            SceneManager.activeSceneChanged += SearchScripts;
             directorSingleton = this;
             directorInstance = gameObject;
         }
@@ -56,9 +60,14 @@ public class DirectorScript : MonoBehaviour
             cameraScript = GameObject.Find("Main Camera").GetComponent<CameraMovement>();
         }
         interactiveObjectsArray = GameObject.FindGameObjectsWithTag("InteractiveObject");
+        // Busca los servicios de Naninovel
         scriptPlayer = Engine.GetService<IScriptPlayer>();
         stateManager = Engine.GetService<IStateManager>();
-        blackScreenScript.blackScreenCanvas.worldCamera = GameObject.Find("NewUICamera(Clone)").GetComponent<Camera>();
+        variableManager = Engine.GetService<ICustomVariableManager>();
+        audioManager = Engine.GetService<IAudioManager>();
+        // Encuentra la cámara asiganda al fundido
+        blackScreenScript.screenCanvas.worldCamera = GameObject.Find("NewUICamera(Clone)").GetComponent<Camera>();
+        whiteScreenScript.screenCanvas.worldCamera = GameObject.Find("NewUICamera(Clone)").GetComponent<Camera>();
     }
     public void EnableObjectInteraction()
     {

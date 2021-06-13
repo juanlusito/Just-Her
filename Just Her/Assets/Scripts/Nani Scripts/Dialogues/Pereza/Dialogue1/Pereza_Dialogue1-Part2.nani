@@ -22,6 +22,7 @@ Arion: En fin...
 # BranchA-B
 @printer Dialogue
 Arion: No necesito a nadie, yo s�lo puedo con todo
+@sfx Pereza.Gomen
 @char Pereza.Default time:1
 @printer PerezaPrinter
 Chica: A�n te falta mucho por aprender por lo que veo...
@@ -30,7 +31,7 @@ Chica: Es por ello que estar�s aqu�... por siempre
 ; Game Over
 @hide Pereza
 @printer Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @stopBgm saloncortado fade:1
 @loadScene FillerScene
 @goto GameOverScript

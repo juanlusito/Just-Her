@@ -1,10 +1,11 @@
 # BranchA-A
+@sfx Pereza.Queja
 Pereza: Hmm... no me sirve...
 @char Pereza.Bostezando time:1
 Pereza: Creo que a�n no comprendes... nada...
 @hide Pereza
 @printer Dialogue
-@fadeOut
+@fadeOut objectName:BlackScreen
 @stopBgm  fade:1
 @loadScene FillerScene
 @goto GameOverScript

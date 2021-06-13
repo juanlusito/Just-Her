@@ -8,7 +8,7 @@ Arion: ¿¡Por qu� lo mencionas!?
 @hide Ira time:1
 @hide Dialogue
 ; Game Over
-@fadeOut
+@fadeOut objectName:BlackScreen
 @stopBgm salon fade:1
 @loadScene FillerScene
 @goto GameOverScript
@@ -52,7 +52,7 @@ Ira: No intentes controlarme con tus juegos mentales. Todo fue un error, !un mar
 @printer Dialogue
 Arion: Si lo sabes todo o, m�s bien, eres yo, entonces eres una est�pida.
 @char Ira.Enfadada pos:"59, 25, -5.4" time:1
-@sfx interrogativo volume:0.1
+@sfx Ira.Hmm volume:0.1
 @spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
 @printer IraPrinter
 Ira: �Te crees gracioso? Peque�o pir�mano, creo que no comprendes la situaci�n en la que te encuentras 
@@ -77,7 +77,7 @@ Ira: Eres el culpable...
 @choice "�Y exactamente de que soy culpable?" goto:Ira_Dialogue2-Part4.BranchB-B-A-B
 @stop
 # BranchB-B-B
-@sfx interrogativo volume:0.1
+@sfx Ira.Hmm volume:0.1
 @char Ira.Default pos:"59, 25, -5.4" time:1
 Ira: �Darme cuenta?
 Ira: Yo lo vi todo... TODO...
